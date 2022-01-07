@@ -190,6 +190,7 @@ body {
 .main-slide-div:hover .grey {
     background: url(./assets/images/gradient-grey.png) rgb(0 0 0 / 35%);
     background-position: 0 100%;
+    background-size: 100% 160px;
 }
 
 .section-title-div {
