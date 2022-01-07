@@ -17,7 +17,7 @@ get_header();
     <img class="logo" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo.png" alt="">
 </div>
 
-<div class="container text-center mid-container">
+<div class="container text-center mid-container mt-5 mb-5">
 
     <div class="black-line mt-5"></div>
 
@@ -96,7 +96,13 @@ get_header();
 
 
 <div class="mt-5">
-    <h2>WORKS</h2>
+    <h2 class="text-center">WORKS</h2>
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+    </div>
 
 </div>
 
