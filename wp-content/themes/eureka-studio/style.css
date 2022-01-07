@@ -151,6 +151,7 @@ body {
 .main-slide-ul li .main-slide-li-div {
     display: block;
     height: 100%;
+    width: 100%;
 }
 
 .main-slide-ul li .main-slide-li-1-div {
