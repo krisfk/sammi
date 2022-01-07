@@ -21,9 +21,9 @@ get_header();
 
     <div class="black-line mt-5"></div>
 
-    <h1>SLOGANSLOGANSLOGAN</h1>
+    <h1 class="mt-5">SLOGANSLOGANSLOGAN</h1>
 
-    <div class="mt-5">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
+    <div class="mt-4">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
         dolor sit amet,
         Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
 
