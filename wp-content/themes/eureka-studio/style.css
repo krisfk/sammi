@@ -141,7 +141,7 @@ body {
 .main-section-column {
     display: inline-block;
     width: 25%;
-    height: 400px;
+    height: 575px;
 }
 
 .main-slide-div {
@@ -173,4 +173,12 @@ body {
 
 .mid-container {
     max-width: 640px !important;
+}
+
+.main-slide-div .grey {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(./assets/images/gradient-grey.png);
+    background-size: 100% 160px;
 }

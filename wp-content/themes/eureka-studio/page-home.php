@@ -31,7 +31,10 @@ get_header();
 
 <div class="row gx-0 mt-5">
     <div class="col-3 main-section-column">
-        <div class="main-slide-div main-slide-div-1"></div>
+        <div class="main-slide-div main-slide-div-1">
+
+            <div class="grey"></div>
+        </div>
     </div>
 
     <div class="col-3 main-section-column">
