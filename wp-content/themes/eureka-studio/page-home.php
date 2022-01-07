@@ -129,6 +129,8 @@ get_header();
         </div>
     </div>
 
+    <div><a href="#" class="more-btn">MORE</a></div>
+
 </div>
 
 <script type="text/javascript">
