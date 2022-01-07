@@ -149,6 +149,8 @@ get_header();
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
             <a href="" class="client-logo-a"><img class="w-100"
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
+            <a href="" class="client-logo-a"><img class="w-100"
+                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
 
         </div>
     </div>
