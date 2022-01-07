@@ -195,10 +195,12 @@ body {
 
 .section-title-div .title-1 {
     font-size: 3rem;
+    line-height: 3rem;
 }
 
 .section-title-div .title-2 {
     font-size: 2rem;
+    line-height: 2rem;
 }
 
 .section-title-div .description {
