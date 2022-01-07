@@ -218,3 +218,11 @@ body {
     text-decoration: none;
     margin: 1rem 0 0 0;
 }
+
+.section-title-div .description {
+    display: none;
+}
+
+.section-title-div .get-consultant-btn {
+    display: none;
+}
