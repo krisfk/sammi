@@ -70,14 +70,14 @@ get_header();
 $(function() {
 
     $('.main-slide-div').mouseenter(function() {
-        $(this).find('.description').clearQueue();
+        $(this).find('.description').clearQueue().fadeOut(0);
         //.stop();
         $(this).find('.description').fadeIn(500);
 
         // .stop().fadeIn(500);;
 
 
-        $(this).find('.get-consultant-btn').clearQueue();
+        $(this).find('.get-consultant-btn').clearQueue().fadeOut(0);
         //.stop();
         $(this).find('.get-consultant-btn').fadeIn(500);
         //.stop().fadeIn(500);
