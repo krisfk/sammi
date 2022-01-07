@@ -84,10 +84,10 @@ $(function() {
     });
 
     $('.main-slide-div').mouseleave(function() {
-        $(this).find('.description').clearQueue().fadeIn(0);
+        $(this).find('.description').fadeIn(0);
         $(this).find('.description').fadeOut(500);
 
-        $(this).find('.get-consultant-btn').clearQueue().fadeIn(0);
+        $(this).find('.get-consultant-btn').fadeIn(0);
         $(this).find('.get-consultant-btn').fadeOut(500);
 
     });
