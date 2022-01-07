@@ -75,8 +75,8 @@ $(function() {
     });
 
     $('.main-slide-div').mouseout(function() {
-        $(this).find('.description').dequeue().fadeOut(500);
-        $(this).find('.get-consultant-btn').dequeue().fadeOut(500);
+        $(this).find('.description').fadeOut(500);
+        $(this).find('.get-consultant-btn').fadeOut(500);
     });
 
 
