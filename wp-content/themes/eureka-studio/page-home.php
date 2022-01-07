@@ -31,20 +31,22 @@ get_header();
 
 <div class="mt-5">
 
-    <ul class="main-slide-ul">
-        <li>
+    <div class="row">
+        <div>
             <div class="main-slide-li-1-div main-slide-li-div"></div>
-        </li>
-        <li>
+        </div>
+
+        <div>
             <div class="main-slide-li-2-div main-slide-li-div"></div>
-        </li>
-        <li>
+        </div>
+        <div>
+
             <div class="main-slide-li-3-div main-slide-li-div"></div>
-        </li>
-        <li>
+        </div>
+        <div>
             <div class="main-slide-li-4-div main-slide-li-div"></div>
-        </li>
-    </ul>
+        </div>
+    </div>
 </div>
 <?php
 
