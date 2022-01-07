@@ -187,7 +187,7 @@ body {
 }
 
 .main-slide-div:hover .grey {
-    background: #000;
+    background: rgb(0 0 0 / 35%);
 }
 
 .section-title-div {
