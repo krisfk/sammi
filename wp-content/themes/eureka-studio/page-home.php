@@ -33,16 +33,16 @@ get_header();
 
     <ul class="main-slide-ul">
         <li>
-            <div class="main-slide-li-1-div"></div>
+            <div class="main-slide-li-1-div main-slide-li-div"></div>
         </li>
         <li>
-            <div class="main-slide-li-2-div"></div>
+            <div class="main-slide-li-2-div main-slide-li-div"></div>
         </li>
         <li>
-            <div class="main-slide-li-3-div"></div>
+            <div class="main-slide-li-3-div main-slide-li-div"></div>
         </li>
         <li>
-            <div class="main-slide-li-4-div"></div>
+            <div class="main-slide-li-4-div main-slide-li-div"></div>
         </li>
     </ul>
 </div>
