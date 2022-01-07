@@ -280,3 +280,10 @@ body {
     padding: 0 2rem;
     margin: 0 0 2rem;
 }
+
+.white-tri {
+    display: block;
+    width: 220px;
+    height: 100px;
+    background: url(./assets/images/white-tri.png) 100% 100%;
+}
