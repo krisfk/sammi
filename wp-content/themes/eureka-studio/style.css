@@ -148,6 +148,11 @@ body {
     height: 400px;
 }
 
+.main-slide-ul li .main-slide-li-1-div {
+    display: block;
+    height: 100%;
+}
+
 .mid-container {
     max-width: 640px !important;
 }
