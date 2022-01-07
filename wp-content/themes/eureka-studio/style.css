@@ -150,6 +150,7 @@ body {
     height: 100%;
     background-position: center center !important;
     position: relative;
+    overflow: hidden;
 }
 
 .main-slide-div-1 {
