@@ -32,18 +32,18 @@ get_header();
 <div class="mt-5">
 
     <div class="row">
-        <div>
+        <div class="col-3">
             <div class="main-slide-li-1-div main-slide-li-div"></div>
         </div>
 
-        <div>
+        <div class="col-3">
             <div class="main-slide-li-2-div main-slide-li-div"></div>
         </div>
-        <div>
+        <div class="col-3">
 
             <div class="main-slide-li-3-div main-slide-li-div"></div>
         </div>
-        <div>
+        <div class="col-3">
             <div class="main-slide-li-4-div main-slide-li-div"></div>
         </div>
     </div>
