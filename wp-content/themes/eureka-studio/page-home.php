@@ -29,9 +29,9 @@ get_header();
 </div>
 
 
-<div class="mt-5">
+<div>
 
-    <!-- <div class="row gx-0">
+    <div class="row gx-0">
         <div class="col-3 main-section-column">
             <div class="main-slide-div main-slide-div-1"></div>
         </div>
@@ -46,7 +46,7 @@ get_header();
         <div class="col-3 main-section-column">
             <div class="main-slide-div main-slide-div-4"></div>
         </div>
-    </div> -->
+    </div>
 </div>
 <?php
 
