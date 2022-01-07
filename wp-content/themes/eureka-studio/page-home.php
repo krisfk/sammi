@@ -51,17 +51,45 @@ get_header();
     <div class="col-3 main-section-column">
         <div class="main-slide-div main-slide-div-2">
             <div class="grey"></div>
+            <div class="section-title-div">
+
+                <div class="title-1">Illustration
+                </div>
+                <div class="title-2">Design</div>
+                <div class="description">Lorem ipsum dolor sit amet <br>
+                    ,Lorem ipsum dolor sit amet,</div>
+                <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+            </div>
         </div>
     </div>
     <div class="col-3 main-section-column">
 
         <div class="main-slide-div main-slide-div-3">
             <div class="grey"></div>
+            <div class="section-title-div">
+
+                <div class="title-1">Website UI/UX
+                </div>
+                <div class="title-2">Design</div>
+                <div class="description">Lorem ipsum dolor sit amet <br>
+                    ,Lorem ipsum dolor sit amet,</div>
+                <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+            </div>
         </div>
     </div>
     <div class="col-3 main-section-column">
         <div class="main-slide-div main-slide-div-4">
             <div class="grey"></div>
+            <div class="section-title-div">
+
+                <div class="title-1">Motion Graphic
+
+                </div>
+                <div class="title-2">Design</div>
+                <div class="description">Lorem ipsum dolor sit amet <br>
+                    ,Lorem ipsum dolor sit amet,</div>
+                <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+            </div>
         </div>
     </div>
 </div>
