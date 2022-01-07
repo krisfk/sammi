@@ -21,6 +21,12 @@ get_header();
 
     <div class="black-line mt-5"></div>
 
+    <h1>SLOGANSLOGANSLOGAN</h1>
+
+    <div class="mt-5">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
+        dolor sit amet,
+        Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
+
 </div>
 <?php
 
