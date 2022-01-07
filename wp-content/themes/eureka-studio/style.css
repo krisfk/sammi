@@ -188,4 +188,5 @@ body {
 .section-title-div {
     position: absolute;
     bottom: 0;
+    z-index: 100;
 }
