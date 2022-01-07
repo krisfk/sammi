@@ -19,7 +19,7 @@ get_header();
 
 <div class="container text-center mid-container">
 
-    <div class="mt-5"></div>
+    <div class="mt-5 d-table"></div>
     <div class="black-line mt-5"></div>
 
     <h2 class="mt-5">SLOGANSLOGANSLOGAN</h2>
@@ -29,7 +29,7 @@ get_header();
 
 </div>
 
-<div class="mt-5"></div>
+<div class="mt-5 d-table"></div>
 <div class="row gx-0 mt-5">
     <div class="col-3 main-section-column">
         <div class="main-slide-div main-slide-div-1">
