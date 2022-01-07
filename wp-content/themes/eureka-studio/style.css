@@ -259,6 +259,11 @@ body {
     border-radius: 1rem;
     overflow: hidden;
     border: 1px solid #ebebeb;
+    transition: 0.2s all;
+}
+
+.work-a:hover {
+    opacity: 0.85;
 }
 
 .work-a img {}
