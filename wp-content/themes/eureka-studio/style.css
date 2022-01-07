@@ -283,7 +283,13 @@ body {
 
 .white-tri {
     display: block;
-    width: 220px;
-    height: 100px;
-    background: url(./assets/images/white-tri.png) 100% 100%;
+    width: 10%;
+    height: 10%;
+    background: url(./assets/images/white-tri.png);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    left: 50%;
+    background-size: 100% 100%;
+    transform: translate(-50%, 0px);
 }
