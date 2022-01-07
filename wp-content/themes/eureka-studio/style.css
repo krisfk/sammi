@@ -273,3 +273,7 @@ body {
     margin: 1rem 0 0 0;
     font-size: 1.5rem;
 }
+
+.client-logo-a {
+    width: 20%;
+}
