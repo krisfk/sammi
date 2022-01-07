@@ -191,6 +191,8 @@ body {
     bottom: 0;
     z-index: 100;
     color: #fff;
+    width: 100%;
+    padding: 1rem;
 }
 
 .section-title-div .title-1 {
@@ -211,5 +213,8 @@ body {
     display: inline-block;
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin: 1rem 0 0 0;
 }
