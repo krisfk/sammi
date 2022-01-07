@@ -29,25 +29,23 @@ get_header();
 </div>
 
 
-<div>
+<div class="row gx-0 mt-5">
+    <div class="col-3 main-section-column">
+        <div class="main-slide-div main-slide-div-1"></div>
+    </div>
 
-    <div class="row gx-0">
-        <div class="col-3 main-section-column">
-            <div class="main-slide-div main-slide-div-1"></div>
-        </div>
+    <div class="col-3 main-section-column">
+        <div class="main-slide-div main-slide-div-2"></div>
+    </div>
+    <div class="col-3 main-section-column">
 
-        <div class="col-3 main-section-column">
-            <div class="main-slide-div main-slide-div-2"></div>
-        </div>
-        <div class="col-3 main-section-column">
-
-            <div class="main-slide-div main-slide-div-3"></div>
-        </div>
-        <div class="col-3 main-section-column">
-            <div class="main-slide-div main-slide-div-4"></div>
-        </div>
+        <div class="main-slide-div main-slide-div-3"></div>
+    </div>
+    <div class="col-3 main-section-column">
+        <div class="main-slide-div main-slide-div-4"></div>
     </div>
 </div>
+
 <?php
 
 get_footer();
