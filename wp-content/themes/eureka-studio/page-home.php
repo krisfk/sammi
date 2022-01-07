@@ -83,7 +83,7 @@ $(function() {
         //.stop().fadeIn(500);
     });
 
-    $('.main-slide-div').mouseout(function() {
+    $('.main-slide-div').mouseleave(function() {
         $(this).find('.description').fadeIn(0);
         $(this).find('.description').fadeOut(500);
 
