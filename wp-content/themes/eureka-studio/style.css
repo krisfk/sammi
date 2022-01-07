@@ -184,3 +184,8 @@ body {
     background-repeat: no-repeat;
     background-position: 0 100%;
 }
+
+.section-title-div {
+    position: absolute;
+    bottom: 0;
+}
