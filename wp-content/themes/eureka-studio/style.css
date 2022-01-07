@@ -108,7 +108,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 body {
-    font-family: 'AcuminVariableConcept';
+    font-family: 'AcuminVariableConcept' !important;
 }
 
 .main-banner {
