@@ -186,6 +186,10 @@ body {
     background-position: 0 100%;
 }
 
+.main-slide-div:hover .grey {
+    background: #000;
+}
+
 .section-title-div {
     position: absolute;
     top: 75%;
