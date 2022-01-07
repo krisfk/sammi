@@ -197,6 +197,17 @@ body {
 .section-title-div {
     position: absolute;
     top: 75%;
+    transition: 0.5s all;
+    z-index: 100;
+    color: #fff;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.main-slide-div:hover .section-title-div {
+    position: absolute;
+    top: 0%;
+    transition: 0.5s all;
     z-index: 100;
     color: #fff;
     width: 100%;
