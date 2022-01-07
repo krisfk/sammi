@@ -265,8 +265,8 @@ body {
 
 .more-btn {
     display: inline-block;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #000;
+    border: 1px solid #000;
     border-radius: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
