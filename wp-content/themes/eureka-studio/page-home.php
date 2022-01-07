@@ -18,7 +18,8 @@ get_header();
 </div>
 
 <div class="container">
-    fdsf
+
+    <div class="black-line"></div>
 
 </div>
 <?php
