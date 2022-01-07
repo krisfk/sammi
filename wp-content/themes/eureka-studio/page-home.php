@@ -33,18 +33,18 @@ get_header();
 
     <div class="row">
         <div class="col-3 main-section-column">
-            <div class="main-slide-li-1-div main-slide-li-div"></div>
+            <div class="main-slide-div main-slide-div-1"></div>
         </div>
 
         <div class="col-3 main-section-column">
-            <div class="main-slide-li-2-div main-slide-li-div"></div>
+            <div class="main-slide-div main-slide-div-2"></div>
         </div>
         <div class="col-3 main-section-column">
 
-            <div class="main-slide-li-3-div main-slide-li-div"></div>
+            <div class="main-slide-div main-slide-div-3"></div>
         </div>
         <div class="col-3 main-section-column">
-            <div class="main-slide-li-4-div main-slide-li-div"></div>
+            <div class="main-slide-div main-slide-div-4"></div>
         </div>
     </div>
 </div>
