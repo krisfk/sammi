@@ -276,4 +276,6 @@ body {
 
 .client-logo-a {
     width: 20%;
+    display: block;
+    padding: 0 1rem;
 }
