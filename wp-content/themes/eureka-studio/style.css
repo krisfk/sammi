@@ -146,3 +146,7 @@ body {
     display: inline-block;
     width: 25%;
 }
+
+.mid-container {
+    max-width: 640px;
+}

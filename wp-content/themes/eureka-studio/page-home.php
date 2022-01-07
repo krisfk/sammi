@@ -17,7 +17,7 @@ get_header();
     <img class="logo" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo.png" alt="">
 </div>
 
-<div class="container text-center">
+<div class="container text-center mid-container">
 
     <div class="black-line mt-5"></div>
 
