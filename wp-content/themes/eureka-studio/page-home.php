@@ -41,7 +41,8 @@ get_header();
 
                 <div class="title-1">Graphic</div>
                 <div class="title-2">Design</div>
-                <div class="description"></div>
+                <div class="description">Lorem ipsum dolor sit amet <br>
+                    ,Lorem ipsum dolor sit amet,</div>
                 <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
             </div>
         </div>
