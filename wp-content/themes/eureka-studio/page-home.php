@@ -12,7 +12,10 @@
 get_header();
 ?>
 
-<div class="main-banner"></div>
+<div class="main-banner">
+
+    <img class="logo" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo.png" alt="">
+</div>
 
 <div class="container">
 

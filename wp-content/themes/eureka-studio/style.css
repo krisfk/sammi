@@ -106,3 +106,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background: url(./assets/images/main-banner-bg.jpg) center center;
     background-size: cover;
 }
+
+.main-banner .logo {
+    width: 440px;
+}
