@@ -138,22 +138,22 @@ body {
     margin: 0 auto;
 }
 
-.main-slide-ul {
-    display: block;
-}
-
-.main-slide-ul li {
+.main-section-column {
     display: inline-block;
     width: 25%;
     height: 400px;
 }
 
+
+/* 
 .main-slide-ul li .main-slide-li-div {
     display: block;
     height: 100%;
     width: 100%;
-}
+} */
 
+
+/* 
 .main-slide-ul li .main-slide-li-1-div {
     background: url(./assets/images/bg-1.jpg);
     background-size: cover;
@@ -172,7 +172,7 @@ body {
 .main-slide-ul li .main-slide-li-4-div {
     background: url(./assets/images/bg-4.jpg);
     background-size: cover;
-}
+} */
 
 .mid-container {
     max-width: 640px !important;
