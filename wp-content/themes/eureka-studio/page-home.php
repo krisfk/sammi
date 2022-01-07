@@ -72,8 +72,14 @@ $(function() {
     $('.main-slide-div').mouseenter(function() {
         $(this).find('.description').fadeIn(500);
         $(this).find('.get-consultant-btn').fadeIn(500);
+    });
 
-    })
+    $('.main-slide-div').mouseout(function() {
+        $(this).find('.description').fadeOut(500);
+        $(this).find('.get-consultant-btn').fadeOut(500);
+    });
+
+
 })
 </script>
 <?php
