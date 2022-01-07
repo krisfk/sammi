@@ -188,7 +188,7 @@ body {
 
 .section-title-div {
     position: absolute;
-    bottom: 0;
+    top: 75%;
     z-index: 100;
     color: #fff;
     width: 100%;
