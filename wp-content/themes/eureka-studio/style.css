@@ -145,6 +145,7 @@ body {
 .main-slide-ul li {
     display: inline-block;
     width: 25%;
+    height: 400px;
 }
 
 .mid-container {
