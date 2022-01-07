@@ -70,13 +70,13 @@ get_header();
 $(function() {
 
     $('.main-slide-div').mouseenter(function() {
-        $(this).stop().dequeue().find('.description').fadeIn(500);
-        $(this).stop().dequeue().find('.get-consultant-btn').fadeIn(500);
+        $(this).find('.description').dequeue().fadeIn(500);
+        $(this).find('.get-consultant-btn').dequeue() fadeIn(500);
     });
 
     $('.main-slide-div').mouseout(function() {
-        $(this).stop().dequeue().find('.description').fadeOut(500);
-        $(this).stop().dequeue().find('.get-consultant-btn').fadeOut(500);
+        $(this).find('.description').dequeue().fadeOut(500);
+        $(this).find('.get-consultant-btn').dequeue().fadeOut(500);
     });
 
 
