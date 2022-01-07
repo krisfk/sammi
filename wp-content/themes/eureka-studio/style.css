@@ -148,9 +148,14 @@ body {
     height: 400px;
 }
 
-.main-slide-ul li .main-slide-li-1-div {
+.main-slide-ul li .main-slide-li-div {
     display: block;
     height: 100%;
+}
+
+.main-slide-ul li .main-slide-li-1-div {
+    background: url(./assets/images/bg-1.jpg);
+    background-size: cover;
 }
 
 .mid-container {
