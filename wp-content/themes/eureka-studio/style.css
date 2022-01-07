@@ -170,36 +170,6 @@ body {
     background-size: cover;
 }
 
-
-/* 
-.main-slide-ul li .main-slide-li-div {
-    display: block;
-    height: 100%;
-    width: 100%;
-} */
-
-
-/* 
-.main-slide-ul li .main-slide-li-1-div {
-    background: url(./assets/images/bg-1.jpg);
-    background-size: cover;
-}
-
-.main-slide-ul li .main-slide-li-2-div {
-    background: url(./assets/images/bg-2.jpg);
-    background-size: cover;
-}
-
-.main-slide-ul li .main-slide-li-3-div {
-    background: url(./assets/images/bg-3.jpg);
-    background-size: cover;
-}
-
-.main-slide-ul li .main-slide-li-4-div {
-    background: url(./assets/images/bg-4.jpg);
-    background-size: cover;
-} */
-
 .mid-container {
     max-width: 640px !important;
 }
