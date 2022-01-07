@@ -99,7 +99,7 @@ get_header();
 <div class="mt-5">
     <h2 class="text-center">WORKS</h2>
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="row">
             <div class="col-4"><a href="#" class="work-a"><img class="w-100"
                         src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
