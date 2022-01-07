@@ -253,6 +253,11 @@ body {
     color: #fff;
 }
 
-.work-a {}
+.work-a {
+    display: inline-block;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+}
 
 .work-a img {}
