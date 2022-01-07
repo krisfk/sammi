@@ -66,6 +66,16 @@ get_header();
     </div>
 </div>
 
+<script type="text/javascript">
+$(function() {
+
+    $('.main-slide-div').mouseenter(function() {
+
+        $(this).find('.description').fadeIn(500);
+
+    })
+})
+</script>
 <?php
 
 get_footer();
