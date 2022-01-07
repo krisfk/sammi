@@ -84,8 +84,8 @@ $(function() {
     });
 
     $('.main-slide-div').mouseout(function() {
-        $(this).find('.description').clearQueue().stop().fadeOut(500);
-        $(this).find('.get-consultant-btn').clearQueue().stop().fadeOut(500);
+        // $(this).find('.description').clearQueue().stop().fadeOut(500);
+        // $(this).find('.get-consultant-btn').clearQueue().stop().fadeOut(500);
     });
 
 
