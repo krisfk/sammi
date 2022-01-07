@@ -21,7 +21,7 @@ get_header();
 
     <div class="black-line mt-5"></div>
 
-    <h1 class="mt-5">SLOGANSLOGANSLOGAN</h1>
+    <h2 class="mt-5">SLOGANSLOGANSLOGAN</h2>
 
     <div class="mt-4">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
         dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
@@ -92,6 +92,12 @@ get_header();
             </div>
         </div>
     </div>
+</div>
+
+
+<div class="mt-5">
+    <h2></h2>
+
 </div>
 
 <script type="text/javascript">
