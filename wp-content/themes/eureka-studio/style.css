@@ -98,3 +98,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 
 /* Categories 01 to 03 are the basics. */
+
+.main-banner {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+}

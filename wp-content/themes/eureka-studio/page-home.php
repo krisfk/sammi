@@ -12,7 +12,12 @@
 get_header();
 ?>
 
-<div class="container"></div>
+<div class="main-banner"></div>
+
+<div class="container">
+
+
+</div>
 <?php
 
 get_footer();
