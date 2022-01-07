@@ -181,4 +181,6 @@ body {
     height: 100%;
     background: url(./assets/images/gradient-grey.png);
     background-size: 100% 160px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
 }
