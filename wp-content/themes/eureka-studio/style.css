@@ -148,5 +148,5 @@ body {
 }
 
 .mid-container {
-    max-width: 640px;
+    max-width: 640px !important;
 }
