@@ -274,6 +274,10 @@ body {
     font-size: 1.5rem;
 }
 
+.more-btn:hover {
+    color: #000;
+}
+
 .client-logo-a {
     width: 20%;
     display: block;
