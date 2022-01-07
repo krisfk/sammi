@@ -31,7 +31,12 @@ get_header();
 
 <div class="mt-5">
 
-    fds
+    <ul class="main-slide-ul">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </div>
 <?php
 
