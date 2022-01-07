@@ -115,7 +115,7 @@ body {
 
 .main-banner {
     display: block;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     background: url(./assets/images/main-banner-bg.jpg) center center;
     background-size: cover;
