@@ -131,6 +131,13 @@ get_header();
 
     <div class="text-center"><a href="#" class="more-btn">MORE</a></div>
 
+
+
+    <div class="mt-5 d-table"></div>
+    <div class="mt-5">
+        <h2 class="text-center">OUR CLIENTS</h2>
+
+    </div>
 </div>
 
 <script type="text/javascript">
