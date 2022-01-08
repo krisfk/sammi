@@ -359,7 +359,7 @@ footer {
     background: #fff;
     height: 20px;
     width: 20px;
-    margin: 0.1rem;
+    margin: 2px;
 }
 
 .filter-ul li a.active .checkbox .inner-checkbox {
