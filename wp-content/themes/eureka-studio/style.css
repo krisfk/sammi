@@ -336,6 +336,7 @@ footer {
 
 .filter-ul li {
     list-style-type: none;
+    display: inline-block;
 }
 
 .filter-ul li a {

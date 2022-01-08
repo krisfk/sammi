@@ -37,6 +37,51 @@ get_header();
         </a>
 
     </li>
+    <li>
+        <a href="javascript:void(0);">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            Lorem ipsum
+        </a>
+
+    </li>
+    <li>
+        <a href="javascript:void(0);">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            Lorem ipsum
+        </a>
+
+    </li>
+    <li>
+        <a href="javascript:void(0);">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            Lorem ipsum
+        </a>
+
+    </li>
+    <li>
+        <a href="javascript:void(0);">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            Lorem ipsum
+        </a>
+
+    </li>
+    <li>
+        <a href="javascript:void(0);">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            Lorem ipsum
+        </a>
+
+    </li>
 </ul>
 
 
