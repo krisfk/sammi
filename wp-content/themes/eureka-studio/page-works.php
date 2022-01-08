@@ -13,7 +13,16 @@ get_header();
 ?>
 
 
-<div>fds</div>
+<div class="page-description-div">
+
+    <h2 class="mt-5">WORKS</h2>
+    <div class="mt-4 mid-container">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+        Lorem ipsum
+        dolor sit amet,
+        Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+        Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </div>
+
+</div>
 
 
 
