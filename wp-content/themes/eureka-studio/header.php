@@ -40,7 +40,9 @@
             <div id="primary" class="content-area">
                 <main id="main" class="site-main" role="main">
 
+                    <div class="mt-5 text-center">
 
-                    <a href="<?php echo get_site_url();?>/" class="top-logo">
-                        <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo-black.png" alt="">
-                    </a>
+                        <a href="<?php echo get_site_url();?>/" class="top-logo">
+                            <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo-black.png" alt="">
+                        </a>
+                    </div>
