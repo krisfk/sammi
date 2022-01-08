@@ -29,7 +29,7 @@ get_header();
 
 <ul class="filter-ul">
     <li>
-        <a href="">
+        <a href="javascript:void(0);">
             <div class="checkbox">
                 <div class="inner-checkbox"></div>
             </div>

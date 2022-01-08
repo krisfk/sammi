@@ -361,3 +361,12 @@ footer {
     width: 20px;
     margin: 0.1rem;
 }
+
+.filter-ul li a.active .checkbox .inner-checkbox {
+    display: block;
+    /* background: #f00; */
+    background: #9b5967;
+    height: 20px;
+    width: 20px;
+    margin: 0.1rem;
+}
