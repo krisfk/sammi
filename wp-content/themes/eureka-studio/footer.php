@@ -14,10 +14,10 @@
 ?>
 <div class="contact-div text-center pb-5">
 
-    <div class="d-table mt-5"></div>
+    <div class="d-table pt-5"></div>
     <h2 class="mt-5">CONTACT US</h2>
 
-    <div class="contact-info mt-4">
+    <div class="contact-info mt-4 mb-5">
 
         <div>Tel: (852) xxxx xxxx
         </div>
