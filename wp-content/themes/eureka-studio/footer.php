@@ -12,7 +12,7 @@
  */
 
 ?>
-<div>fdsaf</div>
+<div class="contact-div"></div>
 </main><!-- #main -->
 </div><!-- #primary -->
 </div><!-- #content -->
