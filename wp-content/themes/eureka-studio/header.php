@@ -50,7 +50,7 @@
 
 
                     <div class=" top-menu-div pt-4 container">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center justify-content-center">
 
 
 
