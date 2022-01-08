@@ -60,10 +60,7 @@
 
                             <ul class=" top-menu-ul col-10">
 
-                                <li class="mobile-logo-li"> <a href="<?php echo get_site_url();?>" class="logo-a col-2">
-                                        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo-clean.png"
-                                            alt="">
-                                    </a></li>
+
                                 <?php
                                     $main_menu = wp_get_menu_array('main menu');
 foreach ($main_menu as $menu_item) {
