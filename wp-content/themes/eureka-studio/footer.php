@@ -12,11 +12,12 @@
  */
 
 ?>
-<div class="contact-div">
+<div class="contact-div text-center">
 
-    <h2>CONTACT US</h2>
+    <div class="d-table mt-5"></div>
+    <h2 class="mt-5">CONTACT US</h2>
 
-    <div class="contact-info">
+    <div class="contact-info mt-4">
 
         <div>Tel: (852) xxxx xxxx
         </div>

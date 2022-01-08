@@ -307,3 +307,8 @@ body {
     display: block;
     background: #e5dfdf;
 }
+
+.contact-info {
+    background: #fff;
+    color: #000;
+}
