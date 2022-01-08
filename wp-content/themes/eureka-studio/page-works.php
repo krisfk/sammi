@@ -23,8 +23,21 @@ get_header();
         Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
         Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </div>
 
+
+
 </div>
 
+<ul class="filter-ul">
+    <li>
+        <a href="">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            Lorem ipsum
+        </a>
+
+    </li>
+</ul>
 
 
 <script type="text/javascript">
