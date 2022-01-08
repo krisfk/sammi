@@ -46,3 +46,204 @@
                             <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo-black.png" alt="">
                         </a>
                     </div>
+
+
+
+                    <div class=" top-menu-div pt-4 container">
+                        <div class="row align-items-center">
+
+                            <a href="<?php echo get_site_url();?>" class="logo-a col-2">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/images/logo-clean.png"
+                                    alt="">
+                            </a>
+
+
+                            <ul class=" top-menu-ul col-10">
+
+                                <li class="mobile-logo-li"> <a href="<?php echo get_site_url();?>" class="logo-a col-2">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo-clean.png"
+                                            alt="">
+                                    </a></li>
+                                <?php
+                                    $main_menu = wp_get_menu_array('main menu');
+foreach ($main_menu as $menu_item) {
+
+$url = $menu_item['url'];
+$title = $menu_item['title'];
+$class = $menu_item['class'];
+
+$temp_arr=explode(get_site_url(),$url);
+$slug=str_replace('/en/','',$temp_arr[1]);
+$slug=str_replace('/cn/','',$slug);
+$slug=str_replace('/','',$slug);
+
+
+if(count($menu_item['children']))
+{
+  
+    echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title.'</a>';
+
+ 
+    echo '<ul class="mobile-menu-submenu">';
+?>
+
+                                <?php
+    
+    foreach ($menu_item['children'] as $sub_menu_item) 
+    {
+        $sub_url = $sub_menu_item['url'];
+        $sub_title = $sub_menu_item['title'];
+        
+        $sub_temp_arr=explode(get_site_url(),$sub_url);
+        $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
+        $sub_slug=str_replace('/cn/','',$sub_slug);
+        $sub_slug=str_replace('/','',$sub_slug);
+        echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
+    }
+    echo '</ul>';
+
+}
+else
+{
+echo '<li><a class="level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
+
+}
+echo'</li>';
+
+
+}
+
+
+
+?>
+
+                                <li>
+
+                                    <a href="<?php echo get_site_url()?>/my-account">
+                                        <?php
+                        
+                        if(is_user_logged_in())
+                        {
+                            ?>
+                                        會員帳號
+                                        <?php
+                        }
+                        else
+                        {
+                            ?>
+                                        會員登入
+                                        <?php
+                        }
+                        ?>
+
+
+
+
+                                    </a>
+                                </li>
+                                <?php
+                        if(is_user_logged_in())
+                        {
+                            ?>
+                                <li><a href="<?php echo wp_logout_url(get_site_url());?>">登出</a></li>
+                                <?php
+                        }
+                    ?>
+
+                                <li class="icon-li first">
+
+                                    <a href="#" class="icon-a search-icon-a">
+                                        <img class="top-menu-icon"
+                                            src="<?php echo get_template_directory_uri();?>/assets/images/search-icon.png"
+                                            alt="">
+
+                                    </a>
+
+                                </li>
+
+
+                                <li class="icon-li">
+                                    <a href="<?php echo get_site_url()?>/cart" class="icon-a position-relative">
+
+                                        <?php
+                        global $woocommerce;
+                        // echo ;
+                        
+                        if($woocommerce->cart->cart_contents_count >0)
+                        {
+                            ?>
+                                        <div class="cart-num"><?php echo $woocommerce->cart->cart_contents_count;?>
+                                        </div>
+
+                                        <?php
+                        }
+                        
+                        ?>
+
+
+                                        <img class="top-menu-icon"
+                                            src="<?php echo get_template_directory_uri();?>/assets/images/cart-icon.png"
+                                            alt="">
+
+                                    </a>
+
+                                </li>
+
+                                <?php
+                     $args = array(  
+                        'post_type' => 'config',
+                        'post_status' => 'publish',
+                        'posts_per_page' => -1, 
+                    );
+                
+                    $query = new WP_Query( $args ); 
+                     
+                    $query->the_post(); 
+                       
+                        
+                        
+
+                        
+                    
+                    ?>
+                                <li class="icon-li">
+                                    <a href="https://www.instagram.com/<?php echo get_field('instagram_account');?>"
+                                        class="icon-a">
+                                        <img class="top-menu-icon"
+                                            src="<?php echo get_template_directory_uri();?>/assets/images/ig-icon.png"
+                                            alt=""></a>
+
+                                </li>
+                                <li class="icon-li">
+                                    <a href="https://www.facebook.com/<?php echo get_field('facebook_account');?>"
+                                        class="icon-a">
+                                        <img class="top-menu-icon"
+                                            src="<?php echo get_template_directory_uri();?>/assets/images/fb-icon.png"
+                                            alt=""></a>
+
+                                </li>
+
+                                <li class="ms-2 wts-num icon-li">Wts：<?php echo get_field('whatsapp_no');?></li>
+
+                                <!-- 94444712 -->
+                                <?php
+
+wp_reset_postdata(); 
+?>
+
+
+                            </ul>
+
+
+
+
+
+                            </ul>
+
+                            <div class="col-10 text-end mobile-menu-btn-div">
+                                <a href="#" class="mobile-menu-btn"> <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
