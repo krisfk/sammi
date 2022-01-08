@@ -12,9 +12,6 @@
 get_header();
 ?>
 
-<a href="<?php echo get_site_url();?>/" class="top-logo">
-    <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo-black.png" alt="">
-</a>
 <div class="main-banner">
 
     <img class="logo" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo.png" alt="">
