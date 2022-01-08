@@ -12,7 +12,7 @@
  */
 
 ?>
-<div class="contact-div text-center">
+<div class="contact-div text-center pb-5">
 
     <div class="d-table mt-5"></div>
     <h2 class="mt-5">CONTACT US</h2>
