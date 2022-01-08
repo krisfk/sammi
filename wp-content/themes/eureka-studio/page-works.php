@@ -13,9 +13,9 @@ get_header();
 ?>
 
 
-<div class="page-description-div">
+<div class="page-description-div pt-5 pb-5 text-center">
 
-    <h2 class="mt-5">WORKS</h2>
+    <h2>WORKS</h2>
     <div class="mt-4 mid-container">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
         Lorem ipsum
         dolor sit amet,
