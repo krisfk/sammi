@@ -12,7 +12,19 @@
  */
 
 ?>
-<div class="contact-div"></div>
+<div class="contact-div">
+
+    <h2>CONTACT US</h2>
+
+    <div class="contact-info">
+
+        <div>Tel: (852) xxxx xxxx
+        </div>
+        <div>Email: info@xxxxxxxx.com</div>
+
+    </div>
+
+</div>
 </main><!-- #main -->
 </div><!-- #primary -->
 </div><!-- #content -->
