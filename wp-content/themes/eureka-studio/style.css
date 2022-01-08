@@ -333,7 +333,7 @@ footer {
     margin: 0 auto;
     padding: 0;
     display: table;
-    max-width: 768px;
+    max-width: 991px;
 }
 
 .filter-ul li {
@@ -354,7 +354,7 @@ footer {
     /*     height: 20px; */
     border: 2px solid #000;
     float: left;
-    margin: 4px 4px 0 0;
+    margin: 4px 8px 0 0;
 }
 
 .filter-ul li a .checkbox .inner-checkbox {
