@@ -37,7 +37,7 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 
-
+    ©xxxxxx design ALL RIGHTS RESERVED.
 
 </footer><!-- #colophon -->
 

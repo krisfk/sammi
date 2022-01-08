@@ -316,3 +316,8 @@ body {
     margin: 0 auto;
     padding: 2rem;
 }
+
+footer {
+    background: #9b5967;
+    color: #fff;
+}
