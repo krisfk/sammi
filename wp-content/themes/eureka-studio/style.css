@@ -374,3 +374,11 @@ footer {
     width: 20px;
     margin: 2px;
 }
+
+.top-logo img {
+    width: 330px;
+}
+
+.top-logo {
+    display: inline-block;
+}
