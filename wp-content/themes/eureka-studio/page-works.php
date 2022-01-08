@@ -43,29 +43,11 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    $('.main-slide-div').mouseenter(function() {
-        $(this).find('.description').stop().fadeOut(0);
-        //.stop();
-        $(this).find('.description').fadeIn(500);
+    $('.filter-ul li a').click(function() {
 
-        // .stop().fadeIn(500);;
+        $(this).toggleClass('active');
 
-
-        $(this).find('.get-consultant-btn').stop(0).fadeOut(0);
-        //.stop();
-        $(this).find('.get-consultant-btn').fadeIn(500);
-        //.stop().fadeIn(500);
-    });
-
-    $('.main-slide-div').mouseleave(function() {
-        $(this).find('.description').stop().fadeIn(0);
-        $(this).find('.description').fadeOut(500);
-
-        $(this).find('.get-consultant-btn').stop().fadeIn(0);
-        $(this).find('.get-consultant-btn').fadeOut(500);
-
-    });
-
+    })
 
 })
 </script>
