@@ -29,12 +29,9 @@ get_header();
 
 <div class="description-container">
 
-    <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/head-img.jpg" alt="">
+    <img src="<?php echo wp_get_attachment_image_src(get_field('heading-banner'), 'full')[0];?>" alt="">
 
-    <div class="mid-container text-center mt-5 mx-auto">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt
-        txt txt
-        txt txt txt txt
-        txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
+    <div class="mid-container text-center mt-5 mx-auto"><?php echo get_field('project_brief_description');?> </div>
 
 
     <!-- <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt=""> -->
