@@ -29,7 +29,7 @@ get_header();
 
 <div class="description-container">
 
-    <img src="<?php echo wp_get_attachment_image_src(get_field('heading-banner'), 'full')[0];?>" alt="">
+    <img src="<?php echo wp_get_attachment_image_src(get_field('heading_banner'), 'full')[0];?>" alt="">
 
     <div class="mid-container text-center mt-5 mx-auto"><?php echo get_field('project_brief_description');?> </div>
 
