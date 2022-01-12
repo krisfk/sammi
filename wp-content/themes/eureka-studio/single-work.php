@@ -25,7 +25,7 @@ get_header();
 </ul>
 
 
-<!-- <div class="container description-container mt-lg-5 mt-md-5 mt-sm-4 mt-4"> -->
+
 
 <div class="d-table mt-lg-5 mt-md-5 mt-sm-4 mt-4"></div>
 <div class="description-container mt-lg-5 mt-md-5 mt-sm-4 mt-4">
@@ -35,65 +35,22 @@ get_header();
     <div class="mid-container text-center mt-4 mx-auto"><?php echo get_field('project_brief_description');?> </div>
 
 
-    <!--detail description-->
     <div class="d-table mt-lg-5 mt-md-5 mt-sm-4 mt-4"></div>
 
     <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
-        <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt="">
+        <!--detail description-->
 
-        <div class="animation-div text-center pt-5 pb-5 black-bg">
-            <h2>Animation Design</h2>
 
-            <div class="container mt-4">
-                <div class="row">
+        <?php echo get_field('detail_description');?>
+        <!--detail description-->
 
-                    <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
-
-                        <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4 -->
-                        <video controls autoplay muted loop>
-                            <source
-                                src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4"
-                                type="video/mp4">
-                        </video>
-                        <h3 class="video-title mb-4">宅男女神篇</h3>
-                    </div>
-                    <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
-                        <h2>
-                            <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-50-36.mp4 -->
-                            <video controls autoplay muted loop>
-                                <source
-                                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-50-36.mp4"
-                                    type="video/mp4">
-                            </video>
-
-                            <h3 class="video-title mb-4"> 巴辣女友篇</h3>
-                        </h2>
-                    </div>
-                    <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
-                        <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-18-35-43.mp4 -->
-                        <video controls autoplay muted loop>
-                            <source
-                                src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-18-35-43.mp4"
-                                type="video/mp4">
-                        </video>
-
-                        <h3 class="video-title mb-4">貓奴宅家篇</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-2.jpg" alt="">
 
     </div>
-    <!--detail description-->
 
-    <!-- <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt=""> -->
 
 
 </div>
 
-<!-- </div> -->
 
 
 <script type="text/javascript">
