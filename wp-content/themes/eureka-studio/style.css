@@ -487,3 +487,8 @@ video {
     object-fit: fill;
     width: 100%;
 }
+
+.description-container p {
+    padding: 0;
+    margin: 0;
+}
