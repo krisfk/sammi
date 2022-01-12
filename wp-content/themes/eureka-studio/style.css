@@ -507,7 +507,7 @@ video {
 
 @media screen and (max-width: 480px) {
     .mid-container {
-        /* max-width: 640px !important; */
+        max-width: 640px !important;
         padding: 0 5%;
     }
 }
