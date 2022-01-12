@@ -41,7 +41,7 @@ get_header();
         <!--detail description-->
 
 
-        <?php echo get_field('detail_description');?>
+        <?php echo get_field('description');?>
         <!--detail description-->
 
 
