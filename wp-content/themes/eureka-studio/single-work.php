@@ -34,6 +34,12 @@ get_header();
     <div class="mid-container text-center mt-5 mx-auto"><?php echo get_field('project_brief_description');?> </div>
 
 
+    <!--detail description-->
+    <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-2.jpg" alt="">
+
+
+    <!--detail description-->
+
     <!-- <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt=""> -->
 
 
