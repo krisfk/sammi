@@ -24,62 +24,6 @@ get_header();
     <li><a href="#">#marketing</a></li>
 </ul>
 
-<ul class="filter-ul mt-5">
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-</ul>
 
 <div class="mt-5">
     <h2 class="text-center">WORKS</h2>
