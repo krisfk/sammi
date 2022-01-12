@@ -480,4 +480,5 @@ h2 {
 
 video {
     object-fit: fill;
+    width: 100%;
 }
