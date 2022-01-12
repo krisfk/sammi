@@ -35,6 +35,9 @@ get_header();
 
 
     <!--detail description-->
+    <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt="">
+
+
     <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-2.jpg" alt="">
 
 
