@@ -28,6 +28,11 @@ get_header();
 <div class="container description-container mt-5">
 
     <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/head-img.jpg" alt="">
+
+    <div class="mid-container">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt
+        txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
+
+
 </div>
 
 
