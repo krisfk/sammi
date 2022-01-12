@@ -120,8 +120,12 @@ get_header();
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post();
                     ?>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt=""></a>
+            <div class="col-4 mb-4"><a href="#" class="work-a">
+
+                    <div class="logo-overlay"></div>
+                    <img class="w-100"
+                        src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt="">
+                </a>
                 <div><?php echo get_the_title();?> </div>
             </div>
             <?php
