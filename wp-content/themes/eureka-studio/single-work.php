@@ -19,6 +19,11 @@ get_header();
     </h1>
 </div>
 
+<ul class="tag-ul">
+    <li><a href="#">#branding</a></li>
+    <li><a href="#">#marketing</a></li>
+</ul>
+
 <ul class="filter-ul mt-5">
     <li>
         <a href="javascript:void(0);">

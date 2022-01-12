@@ -430,3 +430,13 @@ h2 {
     display: block;
     border-bottom: 3px solid #000;
 }
+
+.tag-ul li a {
+    background: #ece7e7;
+    text-decoration: none;
+    color: #000;
+}
+
+.tag-ul li a:hover {
+    color: #000;
+}
