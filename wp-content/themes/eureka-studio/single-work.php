@@ -55,7 +55,7 @@ get_header();
                                 src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4"
                                 type="video/mp4">
                         </video>
-                        <h2 class="video-title">宅男女神篇</h2>
+                        <h3 class="video-title">宅男女神篇</h3>
                     </div>
                     <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
                         <h2>
@@ -66,7 +66,7 @@ get_header();
                                     type="video/mp4">
                             </video>
 
-                            <h2 class="video-title"> 巴辣女友篇</h2>
+                            <h3 class="video-title"> 巴辣女友篇</h3>
                         </h2>
                     </div>
                     <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
@@ -77,7 +77,7 @@ get_header();
                                 type="video/mp4">
                         </video>
 
-                        <h2 class="video-title">貓奴宅家篇</h2>
+                        <h3 class="video-title">貓奴宅家篇</h3>
                     </div>
                 </div>
             </div>
