@@ -121,7 +121,7 @@ get_header();
                     $the_query->the_post();
                     ?>
             <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
+                        src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt=""></a>
                 <div><?php echo get_the_title();?> </div>
             </div>
             <?php
