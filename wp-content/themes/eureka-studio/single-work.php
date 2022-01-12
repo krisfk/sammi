@@ -43,6 +43,20 @@ get_header();
 
         <div class="animation-div text-center pt-5 pb-5 black-bg">
             <h2>Animation Design</h2>
+
+            <div class="row">
+
+                <div class="col-4">
+
+                    <h2>宅男女神篇</h2>
+                </div>
+                <div class="col-4">
+                    <h2>巴辣女友篇</h2>
+                </div>
+                <div class="col-4">
+                    <h2>貓奴宅家篇</h2>
+                </div>
+            </div>
         </div>
 
         <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-2.jpg" alt="">
