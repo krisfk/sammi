@@ -122,7 +122,9 @@ get_header();
                     ?>
             <div class="col-4 mb-4"><a href="#" class="work-a">
 
-                    <div class="logo-overlay"></div>
+                    <div class="logo-overlay"
+                        style="background:url(<?php echo wp_get_attachment_image_src(get_field('logo'), 'full')[0];?>)">
+                    </div>
                     <img class="w-100"
                         src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt="">
                 </a>
