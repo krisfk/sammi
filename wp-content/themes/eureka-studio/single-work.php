@@ -44,7 +44,7 @@ get_header();
         <div class="animation-div text-center pt-5 pb-5 black-bg">
             <h2>Animation Design</h2>
 
-            <div class="row gx-5">
+            <div class="row">
 
                 <div class="column col-4">
 
