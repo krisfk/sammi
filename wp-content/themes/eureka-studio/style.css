@@ -473,3 +473,7 @@ h2 {
 .animation-div {
     color: #fff;
 }
+
+.animation-div h2 {
+    font-size: 2rem;
+}
