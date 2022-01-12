@@ -307,6 +307,7 @@ body {
 
 .contact-div {
     display: block;
+    max-width: 1920px;
     background: #e5dfdf;
 }
 
