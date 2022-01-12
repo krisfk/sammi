@@ -47,7 +47,7 @@ get_header();
             <div class="container mt-4">
                 <div class="row">
 
-                    <div class="column col-4">
+                    <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
 
                         <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4 -->
                         <video controls autoplay muted loop>
@@ -57,7 +57,7 @@ get_header();
                         </video>
                         <h2 class="video-title">宅男女神篇</h2>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
                         <h2>
                             <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-50-36.mp4 -->
                             <video controls autoplay muted loop>
@@ -69,7 +69,7 @@ get_header();
                             <h2 class="video-title"> 巴辣女友篇</h2>
                         </h2>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-lg-4 col-md-4 col-sm-12 col-12 ">
                         <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-18-35-43.mp4 -->
                         <video controls autoplay muted loop>
                             <source
