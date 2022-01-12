@@ -13,7 +13,7 @@ get_header();
 ?>
 
 <div class="container">
-    <h1 class="project-name text-center">
+    <h1 class="project-name text-center pb-3">
         <?php echo get_field('project_name');?>
 
     </h1>
