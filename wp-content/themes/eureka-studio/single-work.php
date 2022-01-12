@@ -60,11 +60,7 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    $('.filter-ul li a').click(function() {
-
-        $(this).toggleClass('active');
-
-    })
+    $('video').attr('playsinline', 'playsinline');
 
 })
 </script>
