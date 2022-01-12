@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<h1 class="project-name">
+<h1 class="project-name text-center">
     <?php echo get_field('project_name');?>
 
 </h1>
