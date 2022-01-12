@@ -120,7 +120,7 @@ get_header();
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post();
                     ?>
-            <div class="col-4 mb-4"><a href="#" class="work-a">
+            <div class="col-4 mb-4"><a href="<?php echo get_permalink();?>" class="work-a">
 
                     <div class="logo-overlay"
                         style="background:url(<?php echo wp_get_attachment_image_src(get_field('logo'), 'full')[0];?>)">
