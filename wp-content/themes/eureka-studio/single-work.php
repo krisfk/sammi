@@ -12,10 +12,13 @@
 get_header();
 ?>
 
-<h1 class="project-name text-center">
-    <?php echo get_field('project_name');?>
+<div class="container">
+    <h1 class="project-name text-center">
+        <?php echo get_field('project_name');?>
 
-</h1>
+    </h1>
+</div>
+
 <ul class="filter-ul mt-5">
     <li>
         <a href="javascript:void(0);">
