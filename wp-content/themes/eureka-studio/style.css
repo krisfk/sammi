@@ -478,6 +478,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+.animation-div .column {
+    position: relative;
+}
+
 video {
     object-fit: fill;
     width: 100%;
