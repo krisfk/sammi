@@ -49,7 +49,7 @@ get_header();
                 <div class="col-4">
 
                     <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4 -->
-                    <video width="320" height="240" autoplay muted>
+                    <video autoplay muted>
                         <source src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4"
                             type="video/mp4">
                     </video>
