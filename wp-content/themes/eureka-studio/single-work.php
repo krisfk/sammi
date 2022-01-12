@@ -12,21 +12,10 @@
 get_header();
 ?>
 
+<h1 class="project-name">
+    <?php echo get_field('project_name');?>
 
-<div class="page-description-div pt-5 pb-5 text-center ">
-
-    <h2>WORKS</h2>
-    <div class="mt-4 mid-container mx-auto">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor
-        sit amet,
-        Lorem ipsum
-        dolor sit amet,
-        Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
-        Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </div>
-
-
-
-</div>
-
+</h1>
 <ul class="filter-ul mt-5">
     <li>
         <a href="javascript:void(0);">
