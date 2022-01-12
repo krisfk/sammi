@@ -25,10 +25,7 @@ get_header();
 </ul>
 
 
-<div class="mt-5">
-    fdsf
-
-</div>
+<div class="container description-container mt-5"></div>
 
 
 <script type="text/javascript">
