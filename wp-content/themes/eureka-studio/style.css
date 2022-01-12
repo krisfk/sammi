@@ -309,6 +309,7 @@ body {
     display: block;
     max-width: 1920px;
     background: #e5dfdf;
+    margin: 0 auto;
 }
 
 .contact-info {
