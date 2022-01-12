@@ -27,7 +27,7 @@ get_header();
 
 </div>
 
-<ul class="filter-ul mt-5">
+<ul class="filter-ul mt-lg-5 mt-md-5 mt-sm-4 mt-4">
     <li>
         <a href="javascript:void(0);">
             <div class="checkbox">
@@ -84,10 +84,10 @@ get_header();
     </li>
 </ul>
 
-<div class="mt-5">
+<div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
     <h2 class="text-center">WORKS</h2>
 
-    <div class="container mt-5">
+    <div class="container mt-lg-5 mt-md-5 mt-sm-4 mt-4">
         <div class="row">
             <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
                         src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>

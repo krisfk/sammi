@@ -19,18 +19,18 @@ get_header();
 
 <div class="container text-center mid-container">
 
-    <div class="mt-5 d-table"></div>
-    <div class="black-line mt-5"></div>
+    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 d-table"></div>
+    <div class="black-line mt-lg-5 mt-md-5 mt-sm-4 mt-4"></div>
 
-    <h2 class="mt-5">SLOGANSLOGANSLOGAN</h2>
+    <h2 class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">SLOGANSLOGANSLOGAN</h2>
 
     <div class="mt-4">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
         dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
 
 </div>
 
-<div class="mt-5 d-table"></div>
-<div class="mt-5 position-relative">
+<div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 d-table"></div>
+<div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 position-relative">
     <div class="white-tri"></div>
     <div class="row gx-0 ">
         <div class="col-3 main-section-column">
@@ -100,11 +100,11 @@ get_header();
 
 
 
-<div class="mt-5 d-table"></div>
-<div class="mt-5">
+<div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 d-table"></div>
+<div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
     <h2 class="text-center">WORKS</h2>
 
-    <div class="container mt-5">
+    <div class="container mt-lg-5 mt-md-5 mt-sm-4 mt-4">
         <div class="row">
             <?php
             
@@ -170,10 +170,10 @@ get_header();
 
 
 
-    <div class="mt-5 d-table"></div>
-    <div class="mt-5">
+    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 d-table"></div>
+    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
         <h2 class="text-center">OUR CLIENTS</h2>
-        <div class="mt-5 container d-flex align-items-center flex-wrap">
+        <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 container d-flex align-items-center flex-wrap">
 
             <a href="" class="client-logo-a"><img class="w-100"
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
