@@ -431,6 +431,15 @@ h2 {
     border-bottom: 3px solid #000;
 }
 
+.tag-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tag-ul li {
+    list-style-type: none;
+}
+
 .tag-ul li a {
     background: #ece7e7;
     text-decoration: none;
