@@ -27,7 +27,7 @@ get_header();
 
 <!-- <div class="container description-container mt-5"> -->
 
-<div class="description-container">
+<div class="description-container mt-5">
 
     <img src="<?php echo wp_get_attachment_image_src(get_field('heading_banner'), 'full')[0];?>" alt="">
 
