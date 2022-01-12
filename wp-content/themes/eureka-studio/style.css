@@ -413,4 +413,15 @@ h2 {
     height: 100%;
     background: rgb(0 0 0 / 50%);
     z-index: 100;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-color: rgb(255 255 255 / 85%) !important;
+    background-size: 50% auto !important;
+    /* display: block; */
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.work-a:hover .logo-overlay {
+    opacity: 1;
 }
