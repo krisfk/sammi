@@ -48,12 +48,17 @@ get_header();
 
                 <div class="col-4">
 
+                    <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4 -->
                     <h2>宅男女神篇</h2>
                 </div>
                 <div class="col-4">
-                    <h2>巴辣女友篇</h2>
+                    <h2>
+                        <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-50-36.mp4 -->
+                        巴辣女友篇
+                    </h2>
                 </div>
                 <div class="col-4">
+                    <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-18-35-43.mp4 -->
                     <h2>貓奴宅家篇</h2>
                 </div>
             </div>
