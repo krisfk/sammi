@@ -29,7 +29,8 @@ get_header();
 
     <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/head-img.jpg" alt="">
 
-    <div class="mid-container">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt
+    <div class="mid-container text-center mt-5">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt
+        txt txt txt txt
         txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
 
 
