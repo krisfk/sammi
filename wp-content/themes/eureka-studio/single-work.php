@@ -37,7 +37,7 @@ get_header();
     <!--detail description-->
     <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt="">
 
-    <div class="animation-div">
+    <div class="animation-div text-center">
         <h2>Animation Design</h2>
     </div>
 
