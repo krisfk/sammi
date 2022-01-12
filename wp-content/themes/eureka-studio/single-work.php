@@ -31,7 +31,7 @@ get_header();
 <div class="description-container mt-lg-5 mt-md-5 mt-sm-4 mt-4">
 
 
-    <img src="<?php echo wp_get_attachment_image_src(get_field('logo'), 'full')[0];?>" alt="">
+    <img class="project-logo" src="<?php echo wp_get_attachment_image_src(get_field('logo'), 'full')[0];?>" alt="">
 
 
     <img src="<?php echo wp_get_attachment_image_src(get_field('heading_banner'), 'full')[0];?>" alt="">
