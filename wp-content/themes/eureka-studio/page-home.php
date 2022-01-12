@@ -171,7 +171,7 @@ get_header();
 
 
     <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 d-table"></div>
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
+    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 mb-5">
         <h2 class="text-center">OUR CLIENTS</h2>
         <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 container d-flex align-items-center flex-wrap">
 
