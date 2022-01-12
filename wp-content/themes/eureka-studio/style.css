@@ -459,3 +459,7 @@ h2 {
 .description-container img {
     width: 100%;
 }
+
+.description-container {
+    max-width: 1920px;
+}

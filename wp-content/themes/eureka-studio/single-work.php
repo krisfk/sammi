@@ -25,18 +25,19 @@ get_header();
 </ul>
 
 
-<div class="container description-container mt-5">
+<!-- <div class="container description-container mt-5"> -->
 
-    <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/head-img.jpg" alt="">
+<div class="description-container"></div>
+<img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/head-img.jpg" alt="">
 
-    <div class="mid-container text-center mt-5 mx-auto">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt
-        txt txt
-        txt txt txt txt
-        txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
+<div class="mid-container text-center mt-5 mx-auto">txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt
+    txt txt
+    txt txt txt txt
+    txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt txt </div>
 
-    <img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt="">
+<img src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt="">
 
-</div>
+<!-- </div> -->
 
 
 <script type="text/javascript">
