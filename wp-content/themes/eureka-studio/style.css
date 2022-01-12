@@ -455,3 +455,7 @@ h2 {
 .tag-ul li a:hover {
     color: #000;
 }
+
+.description-container img {
+    width: 100%;
+}
