@@ -106,6 +106,28 @@ get_header();
 
     <div class="container mt-5">
         <div class="row">
+            <?php
+            
+            $query_args = array(
+                'post_type' => 'work',
+            );
+            
+            // The Query
+            $the_query = new WP_Query( $query_args );
+            
+            // The Loop
+            if ( $the_query->have_posts() ) {
+                while ( $the_query->have_posts() ) {
+                    $the_query->the_post();
+                    echo 1;
+                }
+                /* Restore original Post Data */
+                wp_reset_postdata();
+            } else {
+                // no posts found
+            }
+            
+            ?>
             <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
                         src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
                 <div>Lorem ipsum dolor sit amet, </div>
