@@ -49,7 +49,7 @@ get_header();
                 <div class="column col-4">
 
                     <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4 -->
-                    <video autoplay muted>
+                    <video controls autoplay muted loop>
                         <source src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-59-39.mp4"
                             type="video/mp4">
                     </video>
@@ -58,11 +58,20 @@ get_header();
                 <div class="column col-4">
                     <h2>
                         <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-50-36.mp4 -->
+                        <video controls autoplay muted loop>
+                            <source
+                                src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-16-50-36.mp4"
+                                type="video/mp4">
+                        </video>
                         巴辣女友篇
                     </h2>
                 </div>
                 <div class="column col-4">
                     <!-- http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-18-35-43.mp4 -->
+                    <video controls autoplay muted loop>
+                        <source src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/VIDEO-2020-11-11-18-35-43.mp4"
+                            type="video/mp4">
+                    </video>
                     <h2>貓奴宅家篇</h2>
                 </div>
             </div>
