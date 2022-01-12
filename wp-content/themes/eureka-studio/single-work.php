@@ -25,10 +25,10 @@ get_header();
 </ul>
 
 
-<!-- <div class="container description-container mt-5"> -->
+<!-- <div class="container description-container mt-lg-5 mt-md-5 mt-sm-4 mt-4"> -->
 
-<div class="d-table mt-5"></div>
-<div class="description-container mt-5">
+<div class="d-table mt-lg-5 mt-md-5 mt-sm-4 mt-4"></div>
+<div class="description-container mt-lg-5 mt-md-5 mt-sm-4 mt-4">
 
     <img src="<?php echo wp_get_attachment_image_src(get_field('heading_banner'), 'full')[0];?>" alt="">
 
@@ -36,9 +36,9 @@ get_header();
 
 
     <!--detail description-->
-    <div class="d-table mt-5"></div>
+    <div class="d-table mt-lg-5 mt-md-5 mt-sm-4 mt-4"></div>
 
-    <div class="mt-5">
+    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
         <img class="w-100" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/vita-long-img-1.jpg" alt="">
 
         <div class="animation-div text-center pt-5 pb-5 black-bg">
