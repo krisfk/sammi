@@ -74,18 +74,21 @@ get_header();
 
 <ul class="bottom-ul-nav pt-5 pb-5">
     <?php
+
+// $next_post = get_next_post();
+// if($next_post) {
+//    $next_title = strip_tags(str_replace('"', '', $next_post->post_title));
+//    echo "\t" . '<a rel="next" href="' . get_permalink($next_post->ID) . '" title="' . $next_title. '" class=" ">Next post &raquo;<br /><strong>&quot;'. $next_title . '&quot;</strong></a>' . "\n";
+// }
 $prev_post = get_previous_post();
 if($prev_post) {
    $prev_title = strip_tags(str_replace('"', '', $prev_post->post_title));
-   echo "\t" . '<a rel="prev" href="' . get_permalink($prev_post->ID) . '" title="' . $prev_title. '" class=" ">&laquo; Previous post<br /><strong>&quot;'. $prev_title . '&quot;</strong></a>' . "\n";
+   echo '<li><a class="prev-btn" href="' . get_permalink($prev_post->ID) . '" title="' . $prev_title. '" class=" ">PREV</a></li>';
 }
 
-$next_post = get_next_post();
-if($next_post) {
-   $next_title = strip_tags(str_replace('"', '', $next_post->post_title));
-   echo "\t" . '<a rel="next" href="' . get_permalink($next_post->ID) . '" title="' . $next_title. '" class=" ">Next post &raquo;<br /><strong>&quot;'. $next_title . '&quot;</strong></a>' . "\n";
-}
+
 ?>
+
     <li><a href="" class="prev-btn"> PREV</a></li>
     <li><a href="<?php echo get_site_url();?>/works" class="prev-btn"> WORKS</a></li>
     <li><a href="" class="next-btn">NEXT</a></li>
