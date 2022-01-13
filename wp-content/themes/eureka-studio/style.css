@@ -555,10 +555,18 @@ video {
     top: -4px;
     left: 0;
     height: 3px;
-    background: #fff;
+    /* background: #fff; */
     width: 100%;
     opacity: 0;
     transition: 0.2s all;
+}
+
+.home .level-1 .line {
+    background: #000;
+}
+
+.home .level-1 .line {
+    background: #fff;
 }
 
 .level-1:hover .line,
