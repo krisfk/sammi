@@ -142,7 +142,7 @@ get_header();
                         // );
                         
                         $term_list = wp_get_object_terms(get_the_ID(),'type_of_work');
-                        echo $term_list;
+                        print_r($term_list);
                     // echo $term_list;
                         // echo $terms[0];
                         
