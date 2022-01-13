@@ -565,4 +565,9 @@ video {
         max-width: 640px !important;
         padding: 0 5%;
     }
+    .top-menu-ul li a {
+        /* text-decoration: none;
+        color: #000; */
+        font-size: 1.1rem;
+    }
 }
