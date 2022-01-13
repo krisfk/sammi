@@ -20,7 +20,7 @@ get_header();
 </div>
 
 
-<ul class="tag-ul  mt-5">
+<ul class="tag-ul  mt-4">
     <?php
                         
                         $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
