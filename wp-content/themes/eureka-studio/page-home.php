@@ -175,7 +175,30 @@ get_header();
         <h2 class="text-center">OUR CLIENTS</h2>
         <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 container d-flex align-items-center flex-wrap">
 
-            <a href="" class="client-logo-a"><img class="w-100"
+
+            <?php
+        
+        $query_args = array(
+            'post_type' => 'client_logo',
+        );
+        
+        // The Query
+        $the_query = new WP_Query( $query_args );
+        
+        // The Loop
+        if ( $the_query->have_posts() ) {
+            while ( $the_query->have_posts() ) {
+                $the_query->the_post();
+                echo 1;
+            }
+            /* Restore original Post Data */
+            wp_reset_postdata();
+        } else {
+            // no posts found
+        }
+        
+        ?>
+            <!-- <a href="" class="client-logo-a"><img class="w-100"
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
 
             <a href="" class="client-logo-a"><img class="w-100"
@@ -208,7 +231,7 @@ get_header();
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
             <a href="" class="client-logo-a"><img class="w-100"
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-
+ -->
 
         </div>
     </div>
