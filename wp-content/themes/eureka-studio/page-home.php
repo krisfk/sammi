@@ -166,7 +166,7 @@ get_header();
         </div>
     </div>
 
-    <div class="text-center"><a href="#" class="more-btn">MORE</a></div>
+    <div class="text-center"><a href="<?php echo get_site_url().'/works'?>" class="more-btn">MORE</a></div>
 
 
 
