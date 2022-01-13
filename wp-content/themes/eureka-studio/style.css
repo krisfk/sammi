@@ -510,7 +510,9 @@ video {
     text-align: center;
 }
 
-.client-logo-col img {}
+.client-logo-col img {
+    width: 70%;
+}
 
 @media screen and (max-width: 480px) {
     .mid-container {
