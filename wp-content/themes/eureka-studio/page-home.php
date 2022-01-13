@@ -131,8 +131,20 @@ get_header();
                 <div><?php echo get_the_title();?>
 
                     <ul class="tag-ul d-block mt-3 text-start">
-                        <li><a href="#">#branding</a></li>
-                        <li><a href="#">#marketing</a></li>
+                        <!-- <li><a href="#">#branding</a></li>
+                        <li><a href="#">#marketing</a></li> -->
+                        <?php
+                        
+                        // $cat_args = array(
+                        //     'orderby'       => 'term_id', 
+                        //     'order'         => 'ASC',
+                        //     'hide_empty'    => true, 
+                        // );
+                        
+                        $terms = get_terms('type_of_work');
+                        print_r($terms);
+                        
+                        ?>
                     </ul>
                 </div>
             </div>
