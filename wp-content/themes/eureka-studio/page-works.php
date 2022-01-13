@@ -132,12 +132,22 @@ $(function() {
 
         $(this).toggleClass('active');
         var selected_value = $(this).attr('data-work-type');
-        alert(selected_value);
+        // alert(selected_value);
         if ($(this).hasClass('active')) {
+
+            if (!filter_type_arr.includes(selected_value)) {
+                filter_type_arr.push(selected_value);
+            }
 
         } else {
 
+            filter_type_arr = filter_type_arr.filter((n) => {
+                return n != selected_value
+            });
+
+
         }
+        console.log(filter_type_arr)
 
     })
 
