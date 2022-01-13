@@ -128,7 +128,12 @@ get_header();
                     <img class="w-100"
                         src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt="">
                 </a>
-                <div><?php echo get_the_title();?> </div>
+                <div>
+                    <ul class="tag-ul">
+                        <li><a href="#">#branding</a></li>
+                        <li><a href="#">#marketing</a></li>
+                    </ul><?php echo get_the_title();?>
+                </div>
             </div>
             <?php
                 }
