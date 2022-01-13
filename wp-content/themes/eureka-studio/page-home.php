@@ -192,7 +192,7 @@ get_header();
                 $the_query->the_post();
                 // echo 1;
                 ?>
-                <div class="col-lg-2 col-md-2 col-sm-12 col-12 mb-4 client-logo-col">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-4 client-logo-col">
                     <!-- <a href="#" class="work-a"> -->
                     <img class="client-logo-img"
                         src="<?php echo wp_get_attachment_image_src(get_field('logo_img'), 'full')[0];?>" alt="">
