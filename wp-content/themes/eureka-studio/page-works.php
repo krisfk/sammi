@@ -137,7 +137,15 @@ get_header();
 var filter_type_arr = new Array();
 
 $(function() {
+    <?php
+    if($_GET['t'])
+    {
+        ?>
+    var click_filter = '<?php echo $_GET['t'];?>';
 
+    <?php
+    }
+    ?>
     $('.filter-ul li a').click(function() {
 
         $(this).toggleClass('active');
