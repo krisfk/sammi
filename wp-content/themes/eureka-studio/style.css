@@ -545,6 +545,15 @@ video {
     color: #fff;
 }
 
+
+/* white-tri */
+
+@media screen and (max-width: 991px) {
+    .white-tri {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .main-banner .logo {
         width: 80%;
