@@ -18,10 +18,17 @@
     <h2 class="mt-5">CONTACT US</h2>
 
     <div class="contact-info mt-5 mb-5">
+        <?php
 
-        <div>Tel: (852) 6498 3942
-        </div>
-        <div>Email: <a href="mailto:info@eurekastudiohk.com" target="_blank">info@eurekastudiohk.com</a> </div>
+$page = get_posts([ 'name' => 'contact' ]);
+
+if ( $page )
+{
+    echo $page[0]->post_content;
+}
+?>
+        <!-- <div>Tel: (852) 6498 3942</div>
+        <div>Email: <a href="mailto:info@eurekastudiohk.com" target="_blank">info@eurekastudiohk.com</a> </div> -->
 
     </div>
 
