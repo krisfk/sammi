@@ -129,7 +129,7 @@ get_header();
                         src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt="">
                 </a>
                 <div>
-                    <ul class="tag-ul">
+                    <ul class="tag-ul d-inline-block">
                         <li><a href="#">#branding</a></li>
                         <li><a href="#">#marketing</a></li>
                     </ul><?php echo get_the_title();?>
