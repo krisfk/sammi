@@ -142,7 +142,7 @@ get_header();
                         // );
                         
                         $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
-                        for($i=0;$i<count($term_list);$i++)
+                        for($i=0;$i<count($terms);$i++)
                         {
                             ?>
                         <li><a href="#">#<?php echo $terms[$i]->name;?></a></li>
