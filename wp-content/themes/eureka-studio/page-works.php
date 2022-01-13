@@ -33,60 +33,22 @@ get_header();
 </div>
 
 <ul class="filter-ul mt-lg-5 mt-md-5 mt-sm-4 mt-4">
-    <li>
+    <!-- <li>
         <a href="javascript:void(0);">
             <div class="checkbox">
                 <div class="inner-checkbox"></div>
             </div>
             Lorem ipsum
         </a>
+    </li> -->
+    <?php
+        $terms = get_terms( array( 
+            'taxonomy' => 'type_of_work',
+            // 'parent'   => 0
+        ) );
+        print_r($terms);
+    ?>
 
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
-    <li>
-        <a href="javascript:void(0);">
-            <div class="checkbox">
-                <div class="inner-checkbox"></div>
-            </div>
-            Lorem ipsum
-        </a>
-
-    </li>
 </ul>
 
 <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">
