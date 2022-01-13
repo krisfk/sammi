@@ -66,7 +66,7 @@
 
 
 
-                            <ul class=" top-menu-ul col-10">
+                            <ul class=" top-menu-ul col-lg-10 col-md-10 col-sm-12 col-12 ">
 
 
                                 <?php
