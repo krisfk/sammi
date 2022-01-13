@@ -22,10 +22,14 @@ get_header();
     <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 d-table"></div>
     <div class="black-line mt-lg-5 mt-md-5 mt-sm-4 mt-4"></div>
 
-    <h2 class="mt-lg-5 mt-md-5 mt-sm-4 mt-4">SLOGANSLOGANSLOGAN</h2>
+    <h2 class="mt-lg-5 mt-md-5 mt-sm-4 mt-4"><?php echo get_field('slogan');?></h2>
 
-    <div class="mt-4">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
-        dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
+    <div class="mt-4">
+        <!-- Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum
+        dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+     -->
+        <?php echo get_field('slogan_content');?>
+    </div>
 
 </div>
 
@@ -41,12 +45,13 @@ get_header();
                 </div>
 
                 <div class="section-title-div">
+                    <?php echo get_field('section_content_1');?>
 
-                    <div class="title-1">Graphic</div>
+                    <!-- <div class="title-1">Graphic</div>
                     <div class="title-2">Design</div>
                     <div class="description">Lorem ipsum dolor sit amet <br>
                         ,Lorem ipsum dolor sit amet,</div>
-                    <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+                    <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a> -->
                 </div>
             </div>
         </div>
@@ -55,13 +60,14 @@ get_header();
             <div class="main-slide-div main-slide-div-2">
                 <div class="grey"></div>
                 <div class="section-title-div">
+                    <?php echo get_field('section_content_2');?>
 
-                    <div class="title-1">Illustration
+                    <!-- <div class="title-1">Illustration
                     </div>
                     <div class="title-2">Design</div>
                     <div class="description">Lorem ipsum dolor sit amet <br>
                         ,Lorem ipsum dolor sit amet,</div>
-                    <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+                    <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a> -->
                 </div>
             </div>
         </div>
@@ -70,13 +76,15 @@ get_header();
             <div class="main-slide-div main-slide-div-3">
                 <div class="grey"></div>
                 <div class="section-title-div">
+                    <?php echo get_field('section_content_3');?>
 
+                    <!-- 
                     <div class="title-1">Website UI/UX
                     </div>
                     <div class="title-2">Design</div>
                     <div class="description">Lorem ipsum dolor sit amet <br>
                         ,Lorem ipsum dolor sit amet,</div>
-                    <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+                    <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a> -->
                 </div>
             </div>
         </div>
@@ -84,14 +92,16 @@ get_header();
             <div class="main-slide-div main-slide-div-4">
                 <div class="grey"></div>
                 <div class="section-title-div">
+                    <?php echo get_field('section_content_4');?>
 
-                    <div class="title-1">Motion Graphic
+                    <!-- <div class="title-1">Motion Graphic
 
                     </div>
                     <div class="title-2">Design</div>
                     <div class="description">Lorem ipsum dolor sit amet <br>
                         ,Lorem ipsum dolor sit amet,</div>
                     <a href="javascript:void(0);" class="get-consultant-btn">GET CONSULTANT</a>
+                 -->
                 </div>
             </div>
         </div>
