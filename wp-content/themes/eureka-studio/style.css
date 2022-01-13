@@ -556,8 +556,13 @@ video {
     left: 0;
     height: 3px;
     background: #fff;
-    display: block;
     width: 100%;
+    opacity: 0;
+    transition: 0.2s all;
+}
+
+.level-1:hover .line {
+    opacity: 1;
 }
 
 
