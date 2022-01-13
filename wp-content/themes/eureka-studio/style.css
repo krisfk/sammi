@@ -526,6 +526,10 @@ video {
     width: 70%;
 }
 
+.work-col {
+    transition: 0.2s all;
+}
+
 @media screen and (max-width: 480px) {
     .mid-container {
         max-width: 640px !important;

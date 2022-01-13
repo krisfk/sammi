@@ -163,13 +163,22 @@ $(function() {
 
 
         if (!filter_type_arr.length) {
+
             $('.work-col').fadeIn(0);
+
+            $('.work-col').css({
+                'transform': 'scale(0)'
+            });
 
         } else {
             for (i = 0; i < filter_type_arr.length; i++) {
                 $('.work-col.' + filter_type_arr[i]).fadeIn(0);
-            }
 
+                $('.work-col.' + filter_type_arr[i]).css({
+                    'transform': 'scale(0)'
+                });
+
+            }
         }
 
 
