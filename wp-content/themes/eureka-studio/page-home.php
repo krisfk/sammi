@@ -145,7 +145,9 @@ get_header();
                         for($i=0;$i<count($terms);$i++)
                         {
                             ?>
-                        <li><a href="#">#<?php echo $terms[$i]->name;?></a></li>
+                        <li><a
+                                href="<?php echo get_site_url()?>/?t=<?php echo $terms[$i]->slug;?>">#<?php echo $terms[$i]->name;?></a>
+                        </li>
                         <?php
                         }
                         // print_r($term_list[]);
