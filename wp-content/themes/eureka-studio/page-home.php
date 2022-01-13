@@ -51,7 +51,7 @@ get_header();
             </div>
         </div>
 
-        <div class="col-3 main-section-column">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12  main-section-column">
             <div class="main-slide-div main-slide-div-2">
                 <div class="grey"></div>
                 <div class="section-title-div">
@@ -65,7 +65,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-3 main-section-column">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12  main-section-column">
 
             <div class="main-slide-div main-slide-div-3">
                 <div class="grey"></div>
@@ -80,7 +80,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-3 main-section-column">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12  main-section-column">
             <div class="main-slide-div main-slide-div-4">
                 <div class="grey"></div>
                 <div class="section-title-div">
