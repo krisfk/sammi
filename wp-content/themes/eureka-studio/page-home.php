@@ -244,6 +244,14 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
+    $('.get-consultant-btn').click(function() {
+
+        $("html, body").animate({
+            scrollTop: $(document).height()
+        }, 200);
+
+    })
+
     $('.main-slide-div').mouseenter(function() {
         $(this).find('.description').stop().fadeOut(0);
         //.stop();
