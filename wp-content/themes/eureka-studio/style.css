@@ -324,6 +324,12 @@ body {
     padding: 2rem;
 }
 
+.contact-info a,
+.contact-info a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
 footer {
     background: #9b5967;
     color: #fff;
