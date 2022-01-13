@@ -46,7 +46,20 @@ get_header();
             'taxonomy' => 'type_of_work',
             // 'parent'   => 0
         ) );
-        print_r($terms);
+        for($i=0;$i<count($terms);$i++)
+        {
+            ?>
+    <li>
+        <a href="javascript:void(0);">
+            <div class="checkbox">
+                <div class="inner-checkbox"></div>
+            </div>
+            <?php echo $terms[$i]->name; ?>
+        </a>
+    </li>
+    <?php
+        }
+        // print_r($terms);
     ?>
 
 </ul>
