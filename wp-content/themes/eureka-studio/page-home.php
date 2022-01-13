@@ -244,6 +244,7 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
+    $('.about-menu-btn').addClass('active');
     $('.get-consultant-btn').click(function() {
 
         $("html, body").animate({
