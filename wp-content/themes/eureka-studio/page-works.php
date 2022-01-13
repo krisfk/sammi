@@ -142,7 +142,7 @@ $(function() {
     {
         ?>
     var click_filter = '<?php echo $_GET['t'];?>';
-
+    $('.filter-ul li a.' + click_filter).click();
     <?php
     }
     ?>
