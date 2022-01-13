@@ -161,7 +161,7 @@ $(function() {
 
         $('.work-col').fadeOut(0);
 
-        if (!filter_type_arr.length) {
+        if (filter_type_arr.length == 0) {
             for (i = 0; i < filter_type_arr.length; i++) {
                 $('.work-col').fadeIn(0);
             }
