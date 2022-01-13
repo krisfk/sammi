@@ -116,7 +116,21 @@ get_header();
                     <img class="w-100"
                         src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt="">
                 </a>
-                <div><?php echo get_the_title();?> </div>
+                <div><?php echo get_the_title();?><ul class="tag-ul d-block mt-3 text-start">
+                        <?php
+                        
+                        $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
+                        for($i=0;$i<count($terms);$i++)
+                        {
+                            ?>
+                        <li><a
+                                href="<?php echo get_site_url()?>/works/?t=<?php echo $terms[$i]->slug;?>">#<?php echo $terms[$i]->name;?></a>
+                        </li>
+                        <?php
+                        }
+                        ?>
+                    </ul>
+                </div>
             </div>
             <?php
                 }

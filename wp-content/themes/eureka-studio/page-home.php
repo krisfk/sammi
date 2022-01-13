@@ -131,15 +131,7 @@ get_header();
                 <div><?php echo get_the_title();?>
 
                     <ul class="tag-ul d-block mt-3 text-start">
-                        <!-- <li><a href="#">#branding</a></li>
-                        <li><a href="#">#marketing</a></li> -->
                         <?php
-                        
-                        // $cat_args = array(
-                        //     'orderby'       => 'term_id', 
-                        //     'order'         => 'ASC',
-                        //     'hide_empty'    => true, 
-                        // );
                         
                         $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
                         for($i=0;$i<count($terms);$i++)
@@ -150,10 +142,6 @@ get_header();
                         </li>
                         <?php
                         }
-                        // print_r($term_list[]);
-                    // echo $term_list;
-                        // echo $terms[0];
-                        
                         ?>
                     </ul>
                 </div>
