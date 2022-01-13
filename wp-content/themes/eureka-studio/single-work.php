@@ -72,7 +72,7 @@ get_header();
 </div>
 
 
-<ul class="bottom-ul-nav">
+<ul class="bottom-ul-nav pt-5 pb-5">
     <li><a href="" class="prev-btn"> PREV</a></li>
     <li><a href="" class="prev-btn"> WORKS</a></li>
     <li><a href="" class="next-btn">NEXT</a></li>
