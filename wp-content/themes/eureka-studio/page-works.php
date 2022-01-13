@@ -159,6 +159,15 @@ $(function() {
         }
         console.log(filter_type_arr)
 
+        $('.work-col').fadeOut(0);
+
+        for (i = 0; i < filter_type_arr.length; i++) {
+            $('.work-col.' + filter_type_arr[i]).fadeIn(0);
+
+        }
+
+        // work-col
+
     })
 
 })
