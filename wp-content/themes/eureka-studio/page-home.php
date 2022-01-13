@@ -189,7 +189,12 @@ get_header();
         if ( $the_query->have_posts() ) {
             while ( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo 1;
+                // echo 1;
+                ?>
+            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
+                        src="<?php echo wp_get_attachment_image_src(get_field('client_logo'), 'full')[0];?>" alt=""></a>
+            </div>
+            <?php
             }
             /* Restore original Post Data */
             wp_reset_postdata();
