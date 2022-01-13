@@ -176,7 +176,7 @@ get_header();
         <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 container">
 
 
-            <div class="row  align-items-center">
+            <div class="row  align-items-center justify-content-center">
                 <?php
         
         $query_args = array(
