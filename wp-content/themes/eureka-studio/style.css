@@ -537,6 +537,8 @@ video {
 .home .top-menu-div {
     position: absolute;
     z-index: 100;
+    width: 100%;
+    max-width: 100%;
 }
 
 .home .top-menu-ul li a {
