@@ -449,7 +449,7 @@ h2 {
 .tag-ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 0.5rem;
+    /* margin: 0 0.5rem; */
 }
 
 .tag-ul li a {
