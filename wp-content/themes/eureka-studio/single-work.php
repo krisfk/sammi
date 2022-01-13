@@ -60,6 +60,7 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
+    $('.works-menu-btn').addClass('active');
     $('video').attr('playsinline', 'playsinline');
 
 })
