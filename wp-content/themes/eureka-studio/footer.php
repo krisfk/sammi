@@ -21,7 +21,7 @@
 
         <div>Tel: (852) 6498 3942
         </div>
-        <div>Email: info@eurekastudiohk.com</div>
+        <div>Email: <a href="mailto:info@eurekastudiohk.com" target="_blank">info@eurekastudiohk.com</a> </div>
 
     </div>
 
