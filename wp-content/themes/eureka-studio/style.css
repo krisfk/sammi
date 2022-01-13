@@ -593,6 +593,7 @@ video {
 .bottom-ul-nav li {
     list-style-type: none;
     display: inline-block;
+    margin: 0 2rem;
 }
 
 .bottom-ul-nav li a {
