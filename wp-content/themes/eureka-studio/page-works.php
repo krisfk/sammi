@@ -137,16 +137,7 @@ get_header();
 var filter_type_arr = new Array();
 
 $(function() {
-    <?php
-    if($_GET['t'])
-    {
-        ?>
-    var click_filter = '<?php echo $_GET['t'];?>';
-    $('.filter-ul li a[data-work-type="' + click_filter + '"]').click();
-    alert('.filter-ul li a[data-work-type="' + click_filter + '"]');
-    <?php
-    }
-    ?>
+
     $('.filter-ul li a').click(function() {
 
         $(this).toggleClass('active');
@@ -201,6 +192,18 @@ $(function() {
         // work-col
 
     })
+
+
+    <?php
+    if($_GET['t'])
+    {
+        ?>
+    var click_filter = '<?php echo $_GET['t'];?>';
+    $('.filter-ul li a[data-work-type="' + click_filter + '"]').click();
+    // alert('.filter-ul li a[data-work-type="' + click_filter + '"]');
+    <?php
+    }
+    ?>
 
 })
 </script>
