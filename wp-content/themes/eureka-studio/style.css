@@ -534,6 +534,15 @@ video {
     display: none;
 }
 
+.home .top-menu-div {
+    position: absolute;
+    z-index: 100;
+}
+
+.home .top-menu-ul li a {
+    color: #fff;
+}
+
 @media screen and (max-width: 640px) {
     .main-banner .logo {
         width: 80%;
