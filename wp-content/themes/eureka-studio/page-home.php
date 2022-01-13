@@ -142,7 +142,8 @@ get_header();
                         // );
                         
                         $terms = get_terms('type_of_work');
-                        echo $terms[0];
+                        print_r($terms);
+                        // echo $terms[0];
                         
                         ?>
                     </ul>
