@@ -130,7 +130,7 @@ get_header();
                 </a>
                 <div><?php echo get_the_title();?>
 
-                    <ul class="tag-ul">
+                    <ul class="tag-ul d-block mt-3">
                         <li><a href="#">#branding</a></li>
                         <li><a href="#">#marketing</a></li>
                     </ul>
