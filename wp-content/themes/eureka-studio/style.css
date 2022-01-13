@@ -552,7 +552,7 @@ video {
 
 .level-1 .line {
     position: absolute;
-    top: -4px;
+    top: -8px;
     left: 0;
     height: 3px;
     width: 100%;
@@ -572,11 +572,14 @@ video {
 .level-1.active .line {
     opacity: 1;
     background: #000;
+    top: -4px;
 }
 
 .home .level-1:hover .line,
 .home .level-1.active .line {
+    opacity: 1;
     background: #fff;
+    top: -4px;
 }
 
 
