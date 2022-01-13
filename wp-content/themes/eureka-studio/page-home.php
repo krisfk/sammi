@@ -146,7 +146,7 @@ get_header();
                         {
                             ?>
                         <li><a
-                                href="<?php echo get_site_url()?>/?t=<?php echo $terms[$i]->slug;?>">#<?php echo $terms[$i]->name;?></a>
+                                href="<?php echo get_site_url()?>/works/?t=<?php echo $terms[$i]->slug;?>">#<?php echo $terms[$i]->name;?></a>
                         </li>
                         <?php
                         }
