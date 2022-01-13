@@ -506,6 +506,12 @@ video {
     margin: 0 auto 2rem auto;
 }
 
+.client-logo-col {
+    text-align: center;
+}
+
+.client-logo-col img {}
+
 @media screen and (max-width: 480px) {
     .mid-container {
         max-width: 640px !important;
