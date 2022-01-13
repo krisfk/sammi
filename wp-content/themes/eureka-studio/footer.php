@@ -44,7 +44,7 @@ if ( $page )
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 
-    ©xxxxxx design ALL RIGHTS RESERVED.
+    &copy; Eureka Studio design ALL RIGHTS RESERVED.
 
 </footer><!-- #colophon -->
 
