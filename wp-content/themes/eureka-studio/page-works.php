@@ -161,10 +161,18 @@ $(function() {
 
         $('.work-col').fadeOut(0);
 
-        for (i = 0; i < filter_type_arr.length; i++) {
-            $('.work-col.' + filter_type_arr[i]).fadeIn(0);
+        if (!filter_type_arr.length) {
+            for (i = 0; i < filter_type_arr.length; i++) {
+                $('.work-col').fadeIn(0);
+            }
+
+        } else {
+            for (i = 0; i < filter_type_arr.length; i++) {
+                $('.work-col.' + filter_type_arr[i]).fadeIn(0);
+            }
 
         }
+
 
         // work-col
 
