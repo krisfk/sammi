@@ -89,9 +89,17 @@ if($prev_post) {
 
 ?>
 
-    <li><a href="" class="prev-btn"> PREV</a></li>
+    <!-- <li><a href="" class="prev-btn"> PREV</a></li> -->
     <li><a href="<?php echo get_site_url();?>/works" class="prev-btn"> WORKS</a></li>
-    <li><a href="" class="next-btn">NEXT</a></li>
+    <!-- <li><a href="" class="next-btn">NEXT</a></li> -->
+    <?php
+    $next_post = get_next_post();
+if($next_post) {
+   $next_title = strip_tags(str_replace('"', '', $next_post->post_title));
+   echo '<li><a class="next-btn" href="' . get_permalink($next_post->ID) . '" title="' . $next_title. '" class=" ">NEXT</a></li>';
+
+}
+    ?>
 </ul>
 
 
