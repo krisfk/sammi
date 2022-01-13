@@ -161,13 +161,16 @@ $(function() {
 
         $('.work-col').fadeOut(0);
         $('.work-col').removeClass('animated');
+        $('.work-col').css({
+            'transform': 'scale(0)'
+        });
 
         if (!filter_type_arr.length) {
 
             $('.work-col').fadeIn(0);
 
             $('.work-col').css({
-                'transform': 'scale(0)'
+                'transform': 'scale(1)'
             });
             $('.work-col').addClass('animated');
 
@@ -176,7 +179,7 @@ $(function() {
                 $('.work-col.' + filter_type_arr[i]).fadeIn(0);
 
                 $('.work-col.' + filter_type_arr[i]).css({
-                    'transform': 'scale(0)'
+                    'transform': 'scale(1)'
                 });
 
                 $('.work-col.' + filter_type_arr[i]).addClass('animated');
