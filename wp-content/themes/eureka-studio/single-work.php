@@ -19,10 +19,26 @@ get_header();
     </h1>
 </div>
 
-<ul class="tag-ul">
+
+<ul class="tag-ul d-block mt-3 text-start">
+    <?php
+                        
+                        $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
+                        for($i=0;$i<count($terms);$i++)
+                        {
+                            ?>
+    <li><a
+            href="<?php echo get_site_url()?>/works/?t=<?php echo $terms[$i]->slug;?>">#<?php echo $terms[$i]->name;?></a>
+    </li>
+    <?php
+                        }
+                        ?>
+</ul>
+
+<!-- <ul class="tag-ul">
     <li><a href="#">#branding</a></li>
     <li><a href="#">#marketing</a></li>
-</ul>
+</ul> -->
 
 
 
