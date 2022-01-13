@@ -561,7 +561,8 @@ video {
     transition: 0.2s all;
 }
 
-.level-1:hover .line {
+.level-1:hover .line,
+.level-1.active .line {
     opacity: 1;
 }
 
