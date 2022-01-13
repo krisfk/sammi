@@ -50,7 +50,7 @@ get_header();
         {
             ?>
     <li>
-        <a href="javascript:void(0);">
+        <a href="javascript:void(0);" data-work-type="<?php echo $terms[$i]->slug;?>">
             <div class="checkbox">
                 <div class="inner-checkbox"></div>
             </div>
