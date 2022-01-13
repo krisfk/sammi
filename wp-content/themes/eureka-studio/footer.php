@@ -20,7 +20,7 @@
     <div class="contact-info mt-5 mb-5">
         <?php
 
-$page = get_posts([ 'name' => 'contact' ]);
+$page = get_posts([ 'name' => 'contact',    'post_type' => 'page']);
 
 if ( $page )
 {
