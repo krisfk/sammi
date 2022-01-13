@@ -442,8 +442,9 @@ h2 {
 .tag-ul {
     margin: 0;
     padding: 0;
-    display: table;
+    display: block;
     margin: 2rem auto;
+    text-align: center;
 }
 
 .tag-ul li {
