@@ -545,6 +545,12 @@ video {
     color: #fff;
 }
 
+.level-1 {
+    position: relative;
+}
+
+.level-1 .line {}
+
 
 /* white-tri */
 

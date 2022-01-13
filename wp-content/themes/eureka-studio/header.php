@@ -86,7 +86,7 @@ $slug=str_replace('/','',$slug);
 if(count($menu_item['children']))
 {
   
-    echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title.'</a>';
+    echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'"><div class="line"></div>'.$title.'</a>';
 
  
     echo '<ul class="mobile-menu-submenu">';
