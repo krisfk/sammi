@@ -584,6 +584,16 @@ video {
     top: -4px;
 }
 
+.bottom-ul-nav {
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-ul-nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 
 /* white-tri */
 

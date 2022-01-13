@@ -72,6 +72,13 @@ get_header();
 </div>
 
 
+<ul class="bottom-ul-nav">
+    <li><a href="" class="prev-btn"> PREV</a></li>
+    <li><a href="" class="prev-btn"> WORKS</a></li>
+    <li><a href="" class="next-btn">NEXT</a></li>
+</ul>
+
+
 
 <script type="text/javascript">
 $(function() {
