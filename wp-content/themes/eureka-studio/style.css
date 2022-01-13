@@ -279,6 +279,12 @@ body {
     text-decoration: none;
     margin: 1rem 0 0 0;
     font-size: 1.5rem;
+    background: #fff;
+    transition: 0.2s all;
+}
+
+.more-btn:hover {
+    background: #000;
 }
 
 .more-btn:hover {
