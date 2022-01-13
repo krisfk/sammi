@@ -570,4 +570,13 @@ video {
         color: #000; */
         font-size: 1.1rem;
     }
+    .contact-info {
+        background: #fff;
+        color: #000;
+        display: block;
+        /* max-width: 640px; */
+        margin: 0 auto;
+        padding: 2rem;
+        width: 95%;
+    }
 }
