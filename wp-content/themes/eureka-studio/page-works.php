@@ -143,6 +143,7 @@ $(function() {
         ?>
     var click_filter = '<?php echo $_GET['t'];?>';
     $('.filter-ul li a[data-work-type="' + click_filter + '"]').click();
+    alert('.filter-ul li a[data-work-type="' + click_filter + '"]');
     <?php
     }
     ?>
