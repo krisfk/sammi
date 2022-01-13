@@ -527,7 +527,7 @@ video {
 }
 
 .work-col {
-    transition: 0.2s all;
+    transition: 0.5s all;
 }
 
 @media screen and (max-width: 480px) {
