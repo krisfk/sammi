@@ -458,6 +458,7 @@ h2 {
 .tag-ul li {
     list-style-type: none;
     display: inline-block;
+    margin-bottom: 1rem;
     /* margin: 0 0.5rem; */
 }
 
