@@ -83,7 +83,17 @@ get_header();
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post();
                     ?>
-            <div class="col-4 mb-4"><a href="<?php echo get_permalink();?>" class="work-a">
+            <div class="col-4 mb-4 work-col <?php
+                        
+                        $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
+                        for($i=0;$i<count($terms);$i++)
+                        {
+                            echo $terms[$i]->slug.' ';
+                        }
+                        ?>
+
+
+            "><a href="<?php echo get_permalink();?>" class="work-a">
 
                     <div class="logo-overlay"
                         style="background:url(<?php echo wp_get_attachment_image_src(get_field('logo'), 'full')[0];?>)">
