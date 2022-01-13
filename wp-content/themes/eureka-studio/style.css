@@ -249,10 +249,12 @@ body {
 
 .section-title-div .get-consultant-btn {
     display: none;
+    transition: 0.2s all;
 }
 
 .section-title-div .get-consultant-btn:hover {
-    color: #fff;
+    color: #000;
+    background: #fff;
 }
 
 .work-a {
