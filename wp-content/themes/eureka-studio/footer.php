@@ -19,9 +19,9 @@
 
     <div class="contact-info mt-5 mb-5">
 
-        <div>Tel: (852) xxxx xxxx
+        <div>Tel: (852) 6498 3942
         </div>
-        <div>Email: info@xxxxxxxx.com</div>
+        <div>Email: info@eurekastudiohk.com</div>
 
     </div>
 
