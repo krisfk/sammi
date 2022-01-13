@@ -547,9 +547,18 @@ video {
 
 .level-1 {
     position: relative;
+    display: inline-block;
 }
 
-.level-1 .line {}
+.level-1 .line {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 3px;
+    background: #fff;
+    display: block;
+    width: 100%;
+}
 
 
 /* white-tri */
