@@ -552,12 +552,12 @@ video {
 
 .level-1 .line {
     position: absolute;
-    top: -8px;
+    top: -12px;
     left: 0;
     height: 3px;
     width: 100%;
     opacity: 0;
-    transition: 0.2s all;
+    transition: 0.3s all;
 }
 
 .level-1 .line {
