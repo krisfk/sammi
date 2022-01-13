@@ -33,7 +33,7 @@ get_header();
 <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 position-relative">
     <div class="white-tri"></div>
     <div class="row gx-0 ">
-        <div class="col-3 main-section-column">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12  main-section-column">
             <div class="main-slide-div main-slide-div-1">
 
                 <div class="grey">
