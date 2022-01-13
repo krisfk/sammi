@@ -94,30 +94,12 @@ get_header();
 
     <div class="container mt-lg-5 mt-md-5 mt-sm-4 mt-4">
         <div class="row">
+
             <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
                         src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
                 <div>Lorem ipsum dolor sit amet, </div>
             </div>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
-                <div>Lorem ipsum dolor sit amet, </div>
-            </div>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
-                <div>Lorem ipsum dolor sit amet, </div>
-            </div>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
-                <div>Lorem ipsum dolor sit amet, </div>
-            </div>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
-                <div>Lorem ipsum dolor sit amet, </div>
-            </div>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/work-img.jpg" alt=""></a>
-                <div>Lorem ipsum dolor sit amet, </div>
-            </div>
+
         </div>
     </div>
 
