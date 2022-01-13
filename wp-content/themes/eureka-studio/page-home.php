@@ -141,8 +141,8 @@ get_header();
                         //     'hide_empty'    => true, 
                         // );
                         
-                        $terms = get_terms('type_of_work');
-                        print_r($terms);
+                        $term_list = get_the_term_list(get_the_ID(),'type_of_work');
+                        print_r($term_list);
                         // echo $terms[0];
                         
                         ?>
