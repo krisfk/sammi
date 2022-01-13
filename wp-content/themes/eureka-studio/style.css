@@ -530,6 +530,10 @@ video {
     transition: 0.5s all;
 }
 
+.home .top-logo-div {
+    display: none;
+}
+
 @media screen and (max-width: 640px) {
     .main-banner .logo {
         width: 80%;
