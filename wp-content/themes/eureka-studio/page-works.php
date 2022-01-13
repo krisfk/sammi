@@ -124,11 +124,20 @@ get_header();
 
 
 <script type="text/javascript">
+var filter_type_arr = new Array();
+
 $(function() {
 
     $('.filter-ul li a').click(function() {
 
         $(this).toggleClass('active');
+        var selected_value = $(this).attr('data-work-type');
+        alert(selected_value);
+        if ($(this).hasClass('active')) {
+
+        } else {
+
+        }
 
     })
 
