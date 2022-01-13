@@ -141,8 +141,14 @@ get_header();
                         //     'hide_empty'    => true, 
                         // );
                         
-                        $term_list = wp_get_object_terms(get_the_ID(),'type_of_work');
-                        print_r($term_list);
+                        $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
+                        for($i=0;$i<count($term_list);$i++)
+                        {
+                            ?>
+                        <li><a href="#">#<?php echo $terms[$i]->name;?></a></li>
+                        <?php
+                        }
+                        // print_r($term_list[]);
                     // echo $term_list;
                         // echo $terms[0];
                         
