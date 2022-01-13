@@ -160,7 +160,7 @@ $(function() {
         console.log(filter_type_arr)
 
         $('.work-col').fadeOut(0);
-
+        $('.work-col').removeClass('animated');
 
         if (!filter_type_arr.length) {
 
@@ -169,6 +169,7 @@ $(function() {
             $('.work-col').css({
                 'transform': 'scale(0)'
             });
+            $('.work-col').addClass('animated');
 
         } else {
             for (i = 0; i < filter_type_arr.length; i++) {
@@ -177,6 +178,9 @@ $(function() {
                 $('.work-col.' + filter_type_arr[i]).css({
                     'transform': 'scale(0)'
                 });
+
+                $('.work-col.' + filter_type_arr[i]).addClass('animated');
+
 
             }
         }
