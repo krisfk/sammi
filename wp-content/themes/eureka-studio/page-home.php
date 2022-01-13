@@ -176,7 +176,8 @@ get_header();
         <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 container d-flex align-items-center flex-wrap">
 
 
-            <?php
+            <div class="row">
+                <?php
         
         $query_args = array(
             'post_type' => 'client_logo',
@@ -191,10 +192,11 @@ get_header();
                 $the_query->the_post();
                 // echo 1;
                 ?>
-            <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
-                        src="<?php echo wp_get_attachment_image_src(get_field('logo_img'), 'full')[0];?>" alt=""></a>
-            </div>
-            <?php
+                <div class="col-4 mb-4"><a href="#" class="work-a"><img class="w-100"
+                            src="<?php echo wp_get_attachment_image_src(get_field('logo_img'), 'full')[0];?>"
+                            alt=""></a>
+                </div>
+                <?php
             }
             /* Restore original Post Data */
             wp_reset_postdata();
@@ -203,7 +205,9 @@ get_header();
         }
         
         ?>
-            <!-- <a href="" class="client-logo-a"><img class="w-100"
+            </div>
+        </div>
+        <!-- <a href="" class="client-logo-a"><img class="w-100"
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
 
             <a href="" class="client-logo-a"><img class="w-100"
@@ -238,8 +242,8 @@ get_header();
                     src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
  -->
 
-        </div>
     </div>
+</div>
 </div>
 
 <script type="text/javascript">
