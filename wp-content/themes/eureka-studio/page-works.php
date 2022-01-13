@@ -140,6 +140,9 @@ var filter_type_arr = new Array();
 
 $(function() {
 
+    $('.works-menu-btn').addClass('active');
+
+
     $('.filter-ul li a').click(function() {
 
         $(this).toggleClass('active');
