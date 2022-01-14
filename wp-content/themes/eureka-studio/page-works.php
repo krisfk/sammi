@@ -85,7 +85,7 @@ get_header();
                     ?>
 
             <div class="col-lg-4 col-md-6 col-s
-            m-12 col-12  mb-4 work-col <?php
+            m-12 col-12   mb-lg-0 mb-md-0 mb-sm-4 mb-4 work-col <?php
                         
                         $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
                         for($i=0;$i<count($terms);$i++)
