@@ -103,7 +103,8 @@ get_header();
                     <img class="w-100"
                         src="<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>" alt="">
                 </a>
-                <div><?php echo get_the_title();?><ul class="tag-ul d-block mt-3 text-start">
+
+                <div><?php echo get_the_title();?><ul class="tag-ul d-block mt-0 text-start">
                         <?php
                         
                         $terms = wp_get_object_terms(get_the_ID(),'type_of_work');
