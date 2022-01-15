@@ -14,7 +14,7 @@ get_header();
 
 <div class="main-banner">
 
-    <img class="logo" src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/logo.png" alt="">
+    <img class="logo" src="<?php echo get_site_url();?>/wp-content/uploads/2022/01/logo.png" alt="">
 </div>
 
 <div class="container text-center mid-container">
@@ -212,40 +212,8 @@ get_header();
         ?>
             </div>
         </div>
-        <!-- <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
 
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
 
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
-            <a href="" class="client-logo-a"><img class="w-100"
-                    src="http://64.227.13.14/sammi/wp-content/uploads/2022/01/client-logo-1.png" alt=""></a>
- -->
 
     </div>
 </div>
