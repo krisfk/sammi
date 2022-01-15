@@ -14,7 +14,7 @@ get_header();
 <!-- /* background: url(./assets/images/main-banner-bg.jpg) center center; */ -->
 <?php //echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>
 <div class="main-banner"
-    style="background: url(<?php echo wp_get_attachment_image_src(get_field('thumbnail'), 'full')[0];?>) center center;">
+    style="background: url(<?php echo wp_get_attachment_image_src(get_field('index_banner'), 'full')[0];?>) center center;">
 
     <img class="logo" src="<?php echo get_site_url();?>/wp-content/uploads/2022/01/logo.png" alt="">
 </div>
